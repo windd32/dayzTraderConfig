@@ -1,0 +1,1811 @@
+ 
+<CurrencyName> #tm_ruble							// Currency Name (Only used for the Text in the upper right Corner of the Trader Menu)
+	<Currency> MoneyRuble1, 	1					// Currency Classname, Currency Money Value
+	<Currency> MoneyRuble5, 	5
+	<Currency> MoneyRuble10, 	10
+	<Currency> MoneyRuble25, 	25
+	<Currency> MoneyRuble50, 	50
+	<Currency> MoneyRuble100, 	100
+
+
+<Trader> Торговец потребительскими товарами								// Trader Name (first Trader has ID = 0, second Trader has ID = 1, and so on..)
+	<Category> Овощи							// Category Name
+		CaninaBerry,			*,		100,		-1 // Шиповник
+		SambucusBerry,			*,		100,		-1 // Бузина
+		Plum,					*,		100,		-1 // Слива
+		Kiwi,					*,		100,		-1
+		Apple,					*,		100,		-1 // Яблоко
+		Pear,					*,		100,		-1 // Груша
+		Orange,					*,		100,		-1
+		Banana,					*,		100,		-1
+		Tomato,					*,		300,		-1 // Помидор
+		Potato,					*,		200,		-1 // Очищенный картофель
+		GreenBellPepper,		*,		100,		-1 // Перец
+		Zucchini,				*,		200,		1 // Кабачок
+		Pumpkin,				*,	    300,		3 // Тыква
+		AgaricusMushroom,		*,		200,		1 // Шампиньон
+		AmanitaMushroom,		*,		200,		1 // Мухомор
+		LactariusMushroom,		*,		200,		1 // Рыжик
+		MacrolepiotaMushroom,	*,		200,		1 // Гриб-зонтик
+		PsilocybeMushroom,		*,		200,		1 // Колпак свободы
+		AuriculariaMushroom,	*,		200,		1 // Иудино ухо
+		BoletusMushroom,		*,		200,		1 // Белый гриб
+		PleurotusMushroom,		*,		200,		1 // Вешенка
+	
+	<Category> Консервы
+		PowderedMilk,			*,		350,	    1 // Сухое молоко
+		BoxCerealCrunchin,		*,		300,		1 // Хлопья
+		Rice,					*,		350,        1 // Рис
+		Marmalade,				*,		300,		1 // Клубничное варенье
+		PeachesCan,				*,		320,		1 // Консервированные персики
+		SardinesCan,			*,		220,		1 // Консервированные сардины
+		TunaCan,				*,		250,		1 // Консервированный тунец
+		SpaghettiCan,			*,		350,		1 // Консервированные спагетти
+		BakedBeansCan,			*,		350,		1 // Тушёные бобы
+		TacticalBaconCan,		*,		800,		1 // Консервированный бекон
+		
+	<Category> Мясо
+		ChickenBreastMeat,		M,	   -1,	    500 // Стейк из курицы
+		GoatSteakMeat,			M,	   -1,		100 // Стейк из козлятины
+		SheepSteakMeat,			M,	   -1,		100 // Стейк из баранины
+		PigSteakMeat,			M,	   -1,		150 // Стейк из свинины
+		BoarSteakMeat,			M,	   -1,		150 // Стейк из кабанятины
+		WolfSteakMeat,			M,	   -1,      500 // Стейк из волчатины
+		DeerSteakMeat,			M,	   -1,		100 // Стейк из оленины
+		CowSteakMeat,			M,	   -1,		100 // Стейк из говядины
+        BearSteakMeat,          M,     -1,    	500 // Стейк из медвежатины
+		Sardines,				M,	   -1,		100 // Сардины
+		Carp,					M,	   -1,		100 // Карп
+		Mackerel,				M,	   -1,		100 // Скумбрия
+		Guts,					M,	   -1,		100 // Кишки
+	<Category> Шкуры животных
+		SheepPelt,              *,      -1,      800 // Шкура овцы
+		GoatPelt,               *,      -1,      800 // Шкура козы
+		PigPelt,                *,      -1,      800 // Шкура свиньи
+        WolfPelt,               *,      -1,      800 // Шкура волка
+        DeerPelt,               *,      -1,      8800 // Шкура оленя.
+        CowPelt,                *,      -1,      800 // Шкура коровы.
+		WildboarPelt,           *,      -1,      850 // Шкура кабана
+        BearPelt,               *,      -1,      3000 // Шкура медведя
+		Guts,             	    *,      -1,      200 // Кишки
+		pelt_killerbear_black,           *,      -1,      50850 // Black Killer Bear Pelt
+		pelt_killerbear_rusted ,         *,      -1,      60850 // Rusted Killer Bear Pelt
+		pelt_killerbear_silvered ,       *,      -1,      70850 // Silvered Killer Bear Pelt
+		
+	<Category> Выпивка
+		SodaCan_Cola, 			*,		200, 		20 // Nota Cola
+		SodaCan_Kvass, 			*,		200, 		20 // Квас Mad Monk
+		SodaCan_Pipsi, 			*,		200, 		20 // Pipsi Cola
+		SodaCan_Spite, 			*,		200, 		20 // Spite Lemonade
+		WaterBottle,			*,		500,		50 // Пластиковая бутылка
+		Canteen,				*,		800,		80 // Фляжка
+		
+		
+	<Category> Медицинские принадлежности
+		Rag,					1,		10,		-1 // Тряпка
+		BandageDressing,		*,		200,		30 // Бинт
+		BloodTestKit,			*,		150,		25 // Набор для определения группы крови
+		InjectionVial,		    *,	    250, 		50 // Флакон бикарбоната натрия
+		Thermometer,			*,		150,		30 // Медицинский термометр
+		DisinfectantSpray,		*,		300,		60 // Дезинфицирующий спрей
+		Syringe,				*,		200, 		20 // Шприц
+		Heatpack,				*,		100,		20 // Химическая грелка
+		StartKitIV,				*,	    300,		60 // Набор для переливания
+		SalineBag,				*,		500,		100 // Пакет физраствора
+		BloodBagEmpty,			*,		30000,		100 // Комплект для сбора крови
+		FirstAidKit,			*,		6500,		300 // Аптечка
+		GasMask_Filter,         *,      -1,       2000 // Фильтр противогаза
+		
+		
+	<Category> Лекарства
+		CharcoalTablets,		*,		10000          1500 // Активированный уголь
+		DisinfectantAlcohol,	*,		500,		250 // Алкогольная настойка
+		VitaminBottle,			*,		-1,		800 // Таблетки с мультивитаминами
+		TetracyclineAntibiotics,*,		5000,		100 // Таблетки тетрациклина
+		PainkillerTablets,		*,		800,		400 // Таблетки с кодеином
+		Epinephrine,			*,		2000,		1500 // Адреналин
+		Morphine,				*,		-1,		    2500 // Морфин
+		CigarettePack_Chernamorka,				*,		900,		450
+		CigarettePack_Merkur,					*,		900,		450
+		CigarettePack_Partyzanka,				*,		900,		450
+		AntiChemInjector,						1,		65000,		25000 // Противоядие PO-X
+		
+	<Category> Денежный обмен
+		MoneyRuble1,			1,		1,		-1 // Банкнота 1 рубль
+		MoneyRuble5,			1,		5,		-1 // Банкнота 5 рублей
+		MoneyRuble10,			1,		10,		-1 // Банкнота 10 рублей
+		MoneyRuble25,			1,		25,		-1 // Банкнота 25 рублей
+		MoneyRuble50,			1,		50,		-1 // Банкнота 50 рублей
+		MoneyRuble100,			1,		100,	-1 // Банкнота 100 рублей
+	<Category> Рыба	
+
+		Sardines,					                     S,		 -1,		 500 // Сардины
+		Carp,						                     S,		 -1,		 600 // Карп
+		Mackerel,										 S,		 -1,		 600 // Скумбрия
+		SteelheadTrout		   , S, -1,   1400 // Радужная форель
+		WalleyePollock         , S, -1,   1260 // Минтай
+		geb_Minnow             , S, -1,   460 // Пескарь
+		geb_Bloodclam          , S, -1,   260 // Кровавый моллюск
+		geb_Mussel             , S, -1,   260 // Мидия
+		geb_Blackdevilsnail    , S, -1,   260 // Улитка черного дьявола
+		geb_Crayfish           , S, -1,   520 // Рак
+		geb_Slimysculpin       , S, -1,   620 // Скользкий бычок
+		geb_Flatheadmullet     , S, -1,  920 // Кефаль с плоской головкой
+		geb_Sauger             , S, -1,  940 // Млекопитающее
+		geb_Hairtailfish       , S, -1,  940 // Волосяной хвост
+		geb_Starfish           , S, -1,  940 // морская звезда
+		geb_Jellyfish          , S, -1,  940 // Медуза
+		geb_Bluegill           , S, -1,  960 // Синежаберный
+		geb_Sunfish            , S, -1,  960 // Sunfish
+		geb_Smallmouthbass     , S, -1,  960 // Small Mouth Bass
+		geb_Lobster            , S, -1,  960 // Омар
+		geb_Bluelobster        , S, -1,  960 // Blue Lobster
+		geb_Siamesetigerfish   , S, -1,  940 // Сиамская тигровая рыба
+		geb_Kingcrab           , S, -1,  1240 // Король Краб
+		geb_Bowfin             , S, -1,  1280 // Боуфин
+		geb_Walleye            , S, -1,  1280 // Walleye
+		geb_Blackbass          , S, -1,  1200 // Черный бас
+		geb_Largemouthbass     , S, -1,  1200 // Большеротый окунь
+		geb_Trout              , S, -1,  1200 // Форель
+		geb_BrookTrout         , S, -1,  1200 // Brook Trout
+		geb_BrownTrout         , S, -1,  1200 // Brown Trout
+		geb_CutthroatTrout     , S, -1,  1200 // Cutthroat Trout
+		geb_LakeTrout          , S, -1,  1200 // Lake Trout
+		geb_Whitebass          , S, -1,  1200 // Белый окунь
+		geb_Asianseabass       , S, -1,  1200 // Азиатский сибас
+		geb_Bonita             , S, -1,  1200 // Симпатичная
+		geb_Cherrysalmon       , S, -1,  1200 // Черри Лосось
+		geb_Sockeyesalmon      , S, -1,  1200 // Sockeye Salmon
+		geb_Chinooksalmon      , S, -1,  1200 // Chinook Salmon
+		geb_Pacificcod         , S, -1,  1200 // Тихоокеанская треска
+		geb_Yellowfintuna      , S, -1,  1200 // Yellowfin Tuna
+		geb_Northernpike       , S, -1,  1920 // Северная щука
+		geb_Perch              , S, -1,  2920 // Окунь
+		geb_Angelfish          , S, -1,  2920 // Рыба-ангел
+		geb_Redheadcichlid     , S, -1,  2920 // Рэдхед Цихлида
+		geb_Roughneckrock      , S, -1,  2920 // Роуай Рок
+		geb_Bluetang           , S, -1,  2920 // Блутанг
+		geb_Catfish            , S, -1,  3240 // Сом
+		geb_Humpheadwrasse     , S, -1,  3200 // Горбатый губан
+		geb_Severum            , S, -1,  3600 // Северус
+		geb_Sailfish           , S, -1, 8100 // Sail Fish
+		geb_Mahimahi           , S, -1, 8740 // Mahi Mahi
+		geb_Bluemarlin         , S, -1, 12700 // Синий марлин
+		geb_Leopardshark       , S, -1, 12000 // Леопардовая акула
+		geb_Angelshark         , S, -1, 20700 // Angel Shark
+		geb_Greatwhiteshark    , S, -1, 20700 // Great White Shark
+ 	
+ 
+	<Category> Мясо рыбы  
+		geb_CrayfishFilletMeat,					             S,		 1200,		 900 // Crayfish Fillet
+        geb_NorthernpikeFilletMeat,					         S,		 1200,		 900 // Nornthern Pike Fillet
+        geb_LargemouthbassFilletMeat,				         S,		 1200,		 900 // Largemouth Bass Fillet
+ 	    geb_SmallmouthbassFilletMeat,				       	     S,		 1200,		 900 // Smallmouth Bass Fillet
+ 	    geb_WalleyeFilletMeat,				                     S,		 1200,		 900 // Walleye Fillet
+ 	    geb_SunfishFilletMeat,				                     S,		 1200,		 900 // Sunfish Fillet
+        geb_WhitebassFilletMeat,					         S,		 1200,		 900 // Whitebass Fillet
+        geb_BlackbassFilletMeat,					         S,		 1200,		 900 // Blackbass Fillet
+        geb_TroutFilletMeat,					             S,		 1200,		 900 // Trout Fillet
+        geb_BrownTroutFilletMeat,					         S,		 1200,		 900 // Brown Trout Fillet
+        geb_BrookTroutFilletMeat,					         S,		 1200,		 900 // Brook Trout Fillet
+        geb_CutthroatTroutFilletMeat,					     S,		 1200,		 900 // Cutthroat Trout Fillet
+        geb_LakeTroutFilletMeat,					         S,		 1200,		 900 // Lake Trout Fillet
+        geb_PerchFilletMeat,					             S,		 1200,		 900 // Perch Fillet
+        geb_CatfishFilletMeat,					             S,		 1200,		 900 // Catfish Fillet
+        geb_MinnowFilletMeat,					             S,		 1200,		 200 // Minnow Fillet
+        geb_BluegillFilletMeat,					             S,		 1200,		 900 // Bluegill Fillet
+        geb_SaugerFilletMeat,					             S,		 1200,		 900 // Sauger Fillet
+        geb_BowfinFilletMeat,					             S,		 1200,		 900 // Bowfin Fillet
+        geb_SlimysculpinFilletMeat,					         S,		 1200,		 900 // Slimysculpin Fillet
+        geb_AngelfishFilletMeat,					         S,		 1200,		 900 // Angelfish Fillet
+        geb_AsianseabassFilletMeat,					         S,		 1200,		 900 // Asian Sea Bass Fillet
+        geb_BluemarlinFilletMeat,					         S,		 1200,		 900 // Blue Marlin Fillet
+        geb_BonitaFilletMeat,					             S,		 1200,		 900 // Bonita Fillet
+        geb_CherrysalmonFilletMeat,					         S,		 1200,		 900 // Cherry Salmon Fillet
+        geb_FlatheadmulletFilletMeat,					     S,		 1200,		 900 // Flathead Mullet Fillet
+        geb_LeopardsharkFilletMeat,					         S,		 1200,		 900 // Leopard Shark Fillet
+        geb_PacificcodFilletMeat,					         S,		 1200,		 900 // Pacific Cod Fillet
+        geb_RedheadcichlidFilletMeat,					     S,		 5200,		 900 // Readhead Cichlid Fillet
+        geb_RoughneckrockFilletMeat,					     S,		 1200,		 900 // Roughneck Rock Fish Fillet
+        geb_SeverumFilletMeat,					             S,		 1200,		 900 // Severum Fillet
+        geb_ShrimpFilletMeat,					             S,		 1200,		 900
+        geb_BluetangFilletMeat,					             S,		 1200,		 900 // Bluetang Fillet
+        geb_HairtailfishFilletMeat,					         S,		 1200,		 500 // Hairtail Fish Fillet
+        geb_HumpheadwrasseFilletMeat,					     S,		 1200,		 900 // Humphead Wrasse Fillet
+        geb_SiamesetigerfishFilletMeat,					     S,		 1200,		 900 // Siamese Tiger Fish Fillet
+        geb_SailfishFilletMeat,					             S,		 1200,		 900 // Sail Fish Fillet
+        geb_MahimahiFilletMeat,					             S,		 1200,		 900 // Mahi Mahi Fillet
+        geb_ClamFilletMeat,					     			 S,		 1200,		 900 // Bloodclam Fillet
+        geb_MusselFilletMeat,					     		 S,		 1200,		 900 // Mussel Fillet
+        geb_KingcrabLegs,					     			 S,		 1200,		 900 // King Crab Legs
+		geb_KingcrabFilletMeat,					     		 S,		 1200,		 900 // King Crab Fillet
+        geb_JellyfishFilletMeat,					     	 S,		 1200,		 900 // Jellyfish Fillet
+        geb_LobsterTail,					     			 S,		 1200,		 900 // Lobster Tail
+		geb_LobsterFilletMeat,					     		 S,		 1200,		 900 // Омар
+		geb_BlueLobsterTail,					     	     S,		 1200,		 900 // Blue Lobster Fillet
+		geb_BlueLobsterFilletMeat,					         S,		 1200,		 900 // Омар
+        geb_GreatwhitesharkFilletMeat,					     S,		 1200,		 900 // Great White Shark Fillet
+		geb_AngelsharkFilletMeat,					     	 S,		 1200,		 900 // Angelshark Fillet
+		geb_YellowfintunaFilletMeat,					     S,		 1200,		 900
+
+	<Category>  Удочки, Рыболовные лески,Рыболовные поплавки
+        geb_RedFishingRod,				                     *,		 5600,	     300 // Red Fishing Rod
+        geb_BlueFishingRod,				                     *,		 5600,	     300 // Blue Fishing Rod
+        geb_GreenFishingRod,				                 *,		 5600,	     300 // Green Fishing Rod
+        geb_PurpleFishingRod,				                 *,		 5600,	     300 // Purple Fishing Rod
+        geb_Lure1,								 			*,		 250,		 25 // Fishing Lure 1
+        geb_Lure2,								 			*,		 2150,		 25 // Fishing Lure 2
+        geb_Lure3,								 			*,		 2250,		 25 // Fishing Lure 3
+        geb_Lure4,								 			*,		 2350,		 25 // Fishing Lure 4
+        
+    <Category> Снасти и ножи
+        geb_BlueFishKnife,				                 	 *,		90350,	     175 // Blue Fish Knife
+        geb_OrangeFishKnife,				                 *,		90350,	     175 // Orange Fish Knife
+        geb_GreenFishKnife,				                 	 *,		90350,	     175 // Green Fish Knife
+        geb_YellowFishKnife,				                 *,		90350,	     175 // Yellow Fish Knife
+        geb_RedFishKnife,				                 	 *,		90350,	     175 // Red Fish Knife
+        geb_PurpleFishKnife,				                 *,		90350,	     175 // Purple Fish Knife
+        geb_YellowTackle,				                     *,		9050,	     25 // Yellow Tackle box
+        geb_RedTackle,				                         *,		9050,	     25 // Red Tackle box
+        geb_PurpleTackle,				                     *,		9050,	     25 // Purple Tackle box
+        geb_PinkTackle,				                         *,		9050,	     25 // Pink Tackle box
+        geb_OrangeTackle,				                     *,		9050,	     25 // Orange Tackle box
+        geb_LimeTackle,				                         *,		9050,	     25 // Link Tackle box
+        geb_LightBlueTackle,				                 *,		9050,	     25 // Lightblue Tackle box
+        geb_GreenTackle,				                     *,		9050,	     25 // Green Tackle box
+        geb_BrownTackle,				                     *,		9050,	     25 // Brown Tackle box
+        geb_CamoTackle,				                         *,		9050,	     25 // Camouflage Tackle box
+        geb_BlueTackle,				                         *,		9050,	     25 // Blue Tackle box
+        geb_FunPurpleTackle,				                 *,		9050,	     25 // Fun Purple Tackle box
+        geb_FunYellowTackle,				                 *,		9050,	     25 // Fun Yellow Tackle box
+        geb_FunGreenTackle,				                     *,		9050,	     25 // Fun Green Tackle box
+        geb_FunRedTackle,				                     *,		9050,	     25 // Fun Red Tackle box
+ 
+	 Category> Ящики для рыболовных снастей //Removed due to issues
+      geb_RedTackleBox,				                     *,		 12350,	     175
+      geb_PurpleTackleBox,				                 *,		 12350,	     175
+	  geb_SmallTackle,				                 	 *,		 12350,	     175 // Small Tackle
+	  geb_WormContainer,				                 	 *,  12350,	     175 // Worm Container
+	  geb_BugContainer,   				                 *,		 12350,	     175 // Bug Catcher
+      geb_MinnowBucket,   				                 *,		 12350,	     175 // Minnow Bucket
+	  geb_BambooFishingNet,   				             *,		 12350,	     175 // Bamboo Fishing Net
+
+    <Category> Одежда Рыбака
+		Headdes_Wolf,   				                 	 *,		 19350,	     1075
+        geb_BlueFishHat,   				                 	 *,		 9350,	     175 // Blue Fishing Hat
+        geb_RedFishHat,   				                 	 *,		 9350,	     175 // Red Fishing Hat
+        geb_GreenFishHat,   				                 *,		 9350,	     175 // Green Fishing Hat
+        geb_PurpleFishHat,   				                 *,		 9350,	     175 // Purple Fishing Hat
+        geb_RedFishShirt,   				                 *,		 9350,	     175 // Red Fishing Shirt
+        geb_GreenFishShirt,   				                 *,		 9350,	     175 // Green Fishing Shirt
+        geb_BlueFishShirt,   				                 *,		 9350,	     175 // Blue Fishing Shirt
+        geb_PurpleFishShirt,   				                 *,		 9350,	     175 // Purple Fishing Shirt
+        geb_OrangeFishGloves,   				             *,		 9350,	     175 // Orange Fishing Gloves
+		geb_BlueFishGloves,   				                 *,		 9350,	     175 // Blue Fishing Gloves
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Trader> Торговец разным
+	<Category> Инструменты (малые)
+		sl_winch,				*,		30000,		20030 // Лебедка
+		Pitchfork,				*,		300,		30 // Вилы
+		Sickle,					*,		300,		30 // Серп
+		Screwdriver,			*,		300,		30 // Отвертка
+		Wrench,					*,		300,		30 // Гаечный ключ
+		SewingKit,				*,		-1, 		130 // Набор для шитья
+		Pliers,					*,		400, 		40 // Плоскогубцы
+		LeatherSewingKit,		*,		-1, 		450 // Набор инструментов скорняка
+		Whetstone,				*,		300,		30 // Точильный камень
+		Hammer,					*,		1700,		170 // Молоток
+		Hacksaw,				*,		-1,			10170 // Слесарная ножовка
+		HandSaw,				*,		4700,		370 // Пила
+		Dbr_StrongHandSaw,		*,		99000,		50000 // Укреплённая ручная пила
+		WeaponCleaningKit,		*,		5000, 		500 // Комплект для чистки оружия
+		KitchenKnife,			*,		300,		100 // Кухонный нож
+		SteakKnife,				*,		300,		100 // Нож для стейка
+		HuntingKnife,			*,		1500,		150 // Охотничий нож
+		CanOpener,				*,		100,		10 // Консервный нож
+		Compass,				*,		1000,		100 // Компас
+		OrienteeringCompass,	*,		1000,		100 // Ориентировочный компас
+		Hatchet,				*,		1000,		100 // Топорик
+		CombatKnife,			*,		1500,		150 // Боевой нож
+		Machete,				*,		1600,		200 // Мачете
+		ChernarusMap,			*,		150,		15 // Туристическая карта
+		Lockpick,				*,		1000,		100 // Отмычка
+		Binoculars,				*,		500,		50 // Бинокль
+		FishingRod,				*,		2500,		250 // Заводская удочка
+		Blowtorch,				*,		5500,		550 // Паяльная лампа
+		LugWrench,				*,		150,		15 // Монтировка
+		Crowbar,				*,		1300,		130 // Лом
+		Shovel,					*,		5600,		1560 // Лопата
+		Pickaxe,				*,		2600,		1160 // Кирка
+		SledgeHammer,			*,		12000,		1200 // Кувалда
+		PipeWrench,				W,		1500,		150 // Трубный ключ
+		WoodAxe,				*,		10000,		1000 // Колун
+		FirefighterAxe,			*,		10000,		1000 // Топор пожарного
+		FieldShovel,			*,		10000,		1000 // Полевая лопата
+		FryingPan,				*,		40000,		1200 // Сковорода
+		Grenade_ChemGas,		*,		-1,			35000 // Сосуд PO-X
+	<Category> Читерские вещи
+		
+		AWRepairBarrel, 	  M,		6500000,		1 // Ремонтная бочка
+		AWBarrel500, 	 	  M,		5000000,		600000 // Бочка 500 литров
+		AWBarrel300, 	 	  M,		3300000,		100000 // Бочка 300 литров
+		Karas_scifi_barrel8,		M,		-1,			610000
+		Karas_scifi_barrel10,		M,		-1,			610000
+		Karas_scifi_barrel11,		M,		-1,			610000
+		Karas_scifi_barrel12,		M,		-1,			610000
+		Karas_scifi_barrel14,		M,		-1,			610000
+		Karas_scifi_barrel8,		M,		-1,			610000
+		Karas_scifi_barrel9,		M,		-1,			610000
+		cool_knife,					*,		-1,			200500 // Странный нож
+		Karas_Hatchet4,				*,		2252500,		250
+		karas_hunter_knife,			*,		2200500,		250 // Нож охотника
+		karas_Knife,				*,		2200500,		250 // Супер-нож
+		lowaknife,					*,		-1,			200500 // Коллекционный-нож
+		knife_of_evil,				*,		-1,			200500 // Коллекционный-нож2
+		cocacola_knife,				*,		-1,			200500 // постапокалиптический-нож
+		fish_knife,					*,		-1,			200500 // Рыболовный нож
+		skorpion_knife,				*,		-1,			200500 // Нож скорпион
+		viking_knife,				*,		-1,			200500 // Рыболовный нож
+		OC_Case50_A,               *,       500000,     2600 // Кейс 50
+		OC_Case50_B,               *,       500000,     2600 // Кейс 50
+		OC_Case100_A,              *,       1100000,     25600 // Кейс 100
+		OC_Case100_B,              *,       1100000,     25600 // Кейс 100
+		OC_Case250_A,              *,       2750050,     25600 // Кейс 250
+		OC_Case250_B,              *,       2750050,     25600 // Кейс 250
+		OC_Case500_A,              *,       -1,     	1000000 // Кейс 500
+		OC_Case500_B,              *,       -1,     	1000000 // Кейс 500
+		OC_Case1000_A,             *,       -1,     	3000000 // Кейс 1000
+		OC_Case_fish,              *,       750080,     5600 // Кейс рыбака
+		OC_Case_hunt,              *,       750080,     5600 // Кейс охотника
+		OC_Case_work,              *,       750050,     5600 // Кейс строителя
+		OC_Case_auto,              *,       750050,     5600 // Кейс автослесаря
+		OC_FirstAidKit_A,          *,       750050,     5600 // Аптечка 50
+		OC_FirstAidKit_B,          *,       770050,     5600 // Аптечка 50
+		OC_NBCKit_A,               *,       750030,     5600 // NBC Сумка
+		OC_NBCKit_B,               *,       750030,     5600 // NBC Сумка
+	<Category> Бочки для базы!(в машину не ставятся)
+		tofu_vstorage_barrel_ammo,   			 M,      50000,  35600 // Ammo vStorage v2 Barrel
+		tofu_vstorage_barrel_attachments,  		 M,      50000,  35600 // Attachments vStorage v2 Barrel
+		tofu_vstorage_barrel_base,  			 M,      40000,  35600 // Base vStorage v2 Barrel
+		tofu_vstorage_barrel_clothing,  		 M,      50000,  35600 // Clothing vStorage v2 Barrel
+		tofu_vstorage_barrel_weapons,  			 M,      50000,  35600 // Weapons vStorage v2 Barrel
+		tofu_vstorage_barrel_food,   	 		 M,      50000,  35600 // Food vStorage v2 Barrel
+		tofu_vstorage_barrel_medic,   	 		 M,      50000,  35600 // Medic vStorage v2 Barrel
+		tofu_vstorage_barrel_other,   	 		 M,      50000,  35600 // Other vStorage v2 Barrel
+		tofu_vstorage_barrel_tools,   	 		 M,      50000,  35600 // Tools vStorage v2 Barrel
+		tofu_vstorage_barrel_transport,   	 	 M,      50000,  35600 // Transport vStorage v2 Barrel
+	
+	<Category> Стройка++	
+		BBP_Wall_Kit,               *,       -1,     100 // (Large/Small) Wall Kit
+		BBP_Door_Kit,               *,       -1,     100 // (Large/Small) Door Kit
+		BBP_Floor_Kit,              *,       -1,     100 // (Large/Small) Floor Kit
+		BBP_Roof_Hatch_Kit,         *,       -1,     100 // Roof Hatch Kit
+		BBP_Floor_Hatch_Kit,        *,       -1,     100 // Floor Hatch Kit
+		BBP_Foundation_Kit,         *,       -1,     100 // Foundation Kit
+		BBP_Gate_Kit,               *,       -1,     100 // (Right/Left) Gate Kit
+		BBP_SGate_Kit,              *,       -1,     100 // (Single/Double) Garage Door Kit
+		BBP_Half_Wall_Kit,          *,       -1,     100 // (Large/Small) Half Wall Kit
+		BBP_Pillar_Kit,             *,       -1,     100 // (Large/Small) Pillar Kit
+		BBP_Ramp_Kit,               *,       -1,     100 // Ramp Kit
+		BBP_Roof_Kit,               *,       -1,     100 // (Large/Small) Roof Kit
+		BBP_Hanger_Roof_Kit,        *,       -1,     100 // (Right/Left) Hanger Roof Kit
+		BBP_Slope_Roof_Kit,         *,       -1,     100 // Slope Roof Kit
+		BBP_Slope_Wall_Kit,         *,       -1,     100 // (Right/Left) Slope Wall Kit
+		BBP_Stair_Kit,              *,       -1,     100 // (Large/Small) Stair Kit
+		BBP_Triangle_Floor_Kit,     *,       -1,     100 // Triangle Floor Kit
+		BBP_Triangle_Roof_Kit,      *,       -1,     100 // Triangle Roof Kit
+		BBP_Window_Kit,             *,       -1,     100 // (Large/Small) Window Kit
+		BBP_Barbwire_Fence_Kit,     *,       -1,     100 // Barbwire Barrier Kit
+		BBP_Floor_Mesh_Kit,         *,       -1,     100 // (T2) Metal Floor Mesh Kit
+		BBP_Mesh_Fence_Kit,         *,       80000,     100 // (T2) Chain Link Fence Kit
+		BBP_Mesh_Gate_Kit,          *,       80000,     100 // (T2) Chain Link Gate Kit
+		BBP_Metal_Stair_Kit,        *,       -1,     100 // Metal Stair Kit
+		BBP_Triangle_Foundation_Kit,*,       -1,     100 // Triangle Foundation Kit
+		BBP_Metal_Stair,            *,       -1,     100 // Metal Stairs
+		BBP_Floor_Mesh,             *,       -1,     100 // Metal Floor Mesh
+		BBP_Mesh_Fence,             *,       -1,     100 // Chain Link Fence
+		BBP_Barbwire_Fence,         *,       -1,     100 // Barbwire Barrier
+		BBP_Mesh_Gate,              *,       -1,     100 // Chain Link Gate
+		
+		BBP_Cement,                 *,       16001,     640 // Concrete Mix
+		BBP_Mortar_Mix,             *,       16000,     640 // Mortar Mix
+		BBP_Concrete_Brick_Pile       *,       16000,     640
+		BBP_Cement_Mixer,           *,       25000,     800 // Cement Mixer
+		BBP_Blueprint,              *,       1000,      400 // BBP Crafting Book
+		BBP_Step_Ladder,            *,       25600,     800 // Step Ladder
+		BBP_TapeMeasure,            *,       16009,     640 // BBP Tape Measure
+		
+		BBP_Carpet_1,               *,        15004,     600 // Blue Carpet
+		BBP_Carpet_2,               *,        15005,     600 // Green Carpet
+		BBP_Plaster_1,              *,        15001,     600 // Light Gray Plaster
+		BBP_Plaster_2,              *,        15003,     600 // Camo Plaster
+		BBP_WallPaper_1,             *,       15007,     600 // Nature's Herbs
+		BBP_WallPaper_2,             *,       15008,     600 // Land Of The Free
+		BBP_WallPaper_Mural_1,       *,       15002,     60 // Mando
+		BBP_WallPaper_Mural_2,       *,       15003,     60 // The Trilogy
+
+	<Category> Электрика
+	
+		Battery9V,				*,		500,		50 // Батарея на 9 В
+		PersonalRadio,			*,		3000,		300 // Переносная рация
+		GPSReceiver,            *,      10000,      1000 // GPS-приемник
+		Megaphone,				*,		3000,		300 // Мегафон
+		ElectronicRepairKit,	*,		15000,		1500 // Набор электрика
+		CableReel,				*,		5000,		500 // Кабельная катушка
+		BatteryCharger,			*,		5000,		500 // Зарядное устройство
+		BaseRadio,				*,		30000,		3000 // Полевая радиостанция
+		Rangefinder,			*,		2000,		200 // Дальномер
+		CodeLock,               *,      20000,      4000 // CodeLock
+		NVGoggles,				*,		100000,	    20000 // Очки ночного видения
+	
+	<Category> Освещение
+		Chemlight_Blue,			*,		20,		2 // Химсвет
+		Chemlight_Green,		*,		20,		2 // Химсвет
+		Chemlight_Red,			*,		20,		2 // Химсвет
+		Chemlight_White,		*,		20,		2 // Химсвет
+		Chemlight_Yellow,		*,		20,		2 // Химсвет
+		Roadflare,				*,		300,		30 // Фальшфейер
+		Matchbox,				*,		100,		10 // Спички
+		Flashlight,				*,		300,		30 // Фонарик
+		PortableGasLamp,		*,		1300,		130 // Газовая лампа
+		PortableGasStove,		*,		1300,		130 // Конфорка
+		Headtorch_Black,		*,		1400,		140 // Налобный фонарик
+		Headtorch_Grey,			*,		1500,		150 // Налобный фонарик
+		Spotlight,				*,		5000,	    500 // Строительная лампа
+	
+	<Category> Для охоты и рыбалки
+		LandMineTrap,			*,		-1,		1000 // Противопехотная мина
+		PurificationTablets,	*,		1000,		100 // Хлорные таблетки
+		Pot,					M,		500,		50 // Кастрюля
+		Tripod,					*,		500,		50 // Тренога для костра
+		BearTrap,				*,		5000,		500 // Капкан
+		FangeKnife,             *,      15000,      1500 // Нож с клыками
+ 
+	<Category> Оборудование и хранение
+		RemoteDetonator,	*,		-1,		2000 // Блок дистанционного подрыва
+		AWTrashCanBarrel, 	  *,		10,		    1 // Бочка под мусор
+		Paper,					*,		10,		    1 // Бумага
+		Rope,					*,		200,		20 // Веревка
+		AlarmClock_Blue,				*,		200,		20 // Будильник
+		AlarmClock_Green,				*,		200,		20 // Будильник
+		AlarmClock_Red,					*,		200,		20 // Будильник
+		TannedLeather,			*,		-1,		    25000 // Дубленая кожа
+		MetalWire,				*,		1500,		150 // Металлическая проволока
+		EpoxyPutty,				*,		500,		50 // Эпоксидная шпатлевка
+		DuctTape,				*,		-1,		    250 // Скотч
+		XmasLights,				*,		300,		30 // Рождественские огни
+		HandcuffKeys,			*,		350,		35 // Ключи от наручников
+		Handcuffs,				*,		500,		50 // Наручники
+		Netting,				1,		50,		    5 // Сетка
+		BurlapSack,				*,		50,		    5 // Мешок
+		WoodenPlank,			10,		50000,		300 // Доска
+		MetalPlate,				*,		60000,		4500 // Листовой металл
+		SmallProtectorCase,		*,		70000,		3500 // Защитный ящик
+		AmmoBox,				*,		93000,		1300 // Ящик для патронов
+		SmallGasCanister,		*,		50000,		200 // Маленький баллон с газом
+		MediumGasCanister,		*,		93000,	    300 // Средний баллон с газом
+		LargeGasCanister,		*,		-1,	    	500 // Большой баллон с газом
+		CanisterGasoline,		*,		-1,	   	   3500 // Канистра
+		NailBox,				*,		50500,	    950 // Коробка гвоздей
+		BarbedWire,				*,		1000,	    100 // Колючая проволока
+		Camonet,				*,		600,	    60
+		HescoBox,				*,		650,	    65 // Ограждение из проволочной сетки
+		CombinationLock,		*,		1500,	    150 // Кодовый замок на 3 цифры
+		CombinationLock4,		*,		3000,	    300 // Кодовый замок на 4 цифры
+		BarrelHoles_Blue,		*,		8000,	    800 // Бочка для костра
+		BarrelHoles_Green,		*,		8000,	    800 // Бочка для костра
+		BarrelHoles_Red,		*,		8000,	    800 // Бочка для костра
+		BarrelHoles_Yellow,		*,		8000,	    800 // Бочка для костра
+		Barrel_Blue,			M,		150000,	    40000 // Бочка
+		Barrel_Green,			M,		150000,	    40000 // Бочка
+		Barrel_Red,				M,		150000,	    40000 // Бочка
+		Barrel_Yellow,			M,		150000,	    40000 // Бочка
+		SeaChest,				*,		8000,	    800 // Матросский сундук
+		PowerGenerator,			*,		195000,	    20000 // Электрический генератор
+		PartyTent,              *,      15000,      1500 // Навес
+		PartyTent_Blue,         *,      15000,      1500 // Навес
+		PartyTent_Brown,        *,      15000,      1500 // Навес
+		PartyTent_Lunapark,     *,      15000,      1500 // Навес
+		MediumTent,      		*,		-1,	    8000 // Средняя палатка
+        MediumTent_Orange,      *,      -1,     8000 // Средняя палатка
+        MediumTent_Green,       *,      -1,     8000 // Средняя палатка
+		CarTent,				*,		-1,	    17000 // Автомобильная палатка
+		LargeTent,				*,		-1,	    17500 // Большая палатка
+		Fabric,					*,		-1,	    600 // Брезент
+	
+	<Category> Для фермерства
+		TomatoSeedsPack,		*,		40, 		4 // Пакет семян томатов
+		PepperSeedsPack,		*,		40, 		4 // Пакет семян перца
+		ZucchiniSeedsPack,		*,		60, 		6 // Пакет семян кабачка
+		PumpkinSeedsPack,		*,		100, 	    10 // Пакет семян тыквы
+		GardenLime,				*,		-1,		  7000 // Садовая известь
+		
+	<Category> Мягкие игрушки <3
+		Bear_Beige,				*,		5000,		2500 // Плюшевый медведь
+		Bear_Dark,				*,		5000,		1500 // Плюшевый медведь
+		Bear_Pink,				*,		5000,		3500 // Плюшевый медведь
+		Bear_White,				*,		5000,		4500 // Плюшевый медведь
+		
+		
+		<Category> Флаги
+		Flag_APA,               *,     195000,       500 // Флаг
+		Flag_Altis,             *,     195000,       500 // Флаг
+		Flag_BabyDeer,          *,     195000,       500 // Флаг
+		Flag_Bear,              *,     195000,       500 // Флаг
+		Flag_Bohemia,           *,     195000,       500 // Флаг
+		Flag_BrainZ,            *,     195000,       500 // Флаг
+		Flag_CDF,               *,     195000,       500 // Флаг
+		Flag_CHEL,              *,     195000,       500 // Флаг
+		Flag_CMC,               *,     195000,       500 // Флаг
+		Flag_Cannibals,         *,     195000,       500 // Флаг
+		Flag_Chedaki,           *,     195000,       500 // Флаг
+		Flag_Chernarus,         *,     195000,       500 // Флаг
+		Flag_DayZ,              *,     195000,       500 // Флаг
+		Flag_HunterZ,           *,     195000,       500 // Флаг
+		Flag_Livonia,           *,     195000,       500 // Флаг
+		Flag_Pirates,           *,     195000,       500 // Флаг
+		Flag_Snake,             *,     195000,       500 // Флаг
+		Flag_TEC,               *,     195000,       500 // Флаг
+		Flag_Wolf,              *,     195000,       500 // Флаг
+		Flag_Zenit,             *,     195000,       500 // Флаг
+		Flag_UEC,               *,     195000,       500 // Флаг
+	<Category>MMG Case
+mmg_crate04_olive,			 *, -1, 4500 // MMG Metal Crate Green
+mmg_crate04_black,			 *, -1, 4500 // MMG Metal Crate Black
+mmg_crate04_blue,			 *, -1, 4500 // MMG Metal Crate Blue
+mmg_crate04_yellow, 		 *, -1, 4500 // MMG Metal Crate Yellow
+mmg_crate04_red, 			 *, -1, 4500 // MMG Metal Crate Red
+mmg_supply_crate_wood,   	 *, -1, 3500 // MMG SupplyCrate Wooden
+mmg_supply_crate_grey,   	 *, -1, 3500 // MMG SupplyCrate Grey
+mmg_army_box_green,	     	 *, -1, 3500 // MMG Army Box Green
+mmg_army_box_medic,      	 *, -1, 3500 // MMG Army Box Medic
+mmg_army_box_medic_grey, 	 *, -1, 3500 // MMG Army Box Medic
+mmg_military_case_green, 	 *, -1, 3500 // MMG Military Case Green
+mmg_weapon_crate_wood,   	 *, -1, 3500 // MMG Weapon Crate Wood
+mmg_palette_storage,     	 *, -1, 3500 // MMG Palette Storage
+
+<Category>MMG Crafts
+mmg_craftable_tent_kit, *, -1, 3500 // MMG craftable Tent Kit
+mmg_gun_rack_planks,    *, -1, 3500 // MMG Craftable Gun Rack Planks
+mmg_gun_wall_kit_wooden,*, -1, 3500 // MMG Gun Wall Kit Wooden
+mmg_gun_wall_kit_metal, *, -1, 3500 // MMG Gun Wall Kit Metal
+
+<Category>MMG Weapon racks              
+mmg_gun_rack_kit_blue,                  *, -1, 3000 // MMG Gun Rack Kit Blue
+mmg_gun_rack_kit_green,                 *, -1, 3000 // MMG Gun Rack Kit Green
+mmg_gun_rack_kit_tan,                   *, -1, 3000 // MMG Gun Rack Kit Tan
+mmg_lockable_gun_rack_kit_grey		  , *, -1, 3000 // MMG Lockable Gun Rack Kit
+mmg_equipment_locker_green_kit, 		*, -1, 3000 // MMG Equipment Locker Green Kit
+mmg_equipment_locker_black_kit,			*, -1, 3000 // MMG Equipment Locker Black Kit
+mmg_equipment_locker_grey_kit, 			*, -1, 3000 // MMG Equipment Locker Rusty Kit
+mmg_locker02_blue_kit, 					*, -1, 3500 // MMG TA-50 Locker Kit Blue
+mmg_locker02_green_kit,					*, -1, 3500 // MMG TA-50 Locker Kit Green
+mmg_locker02_tan_kit,  					*, -1, 3500 // MMG TA-50 Locker Kit Tan
+
+
+mmg_armored_cabinet_grey, 	*, -1, 3000 // MMG Armored Cabinet Grey
+mmg_armored_cabinet_green,	*, -1, 3000 // MMG Armored Cabinet Green
+mmg_armored_cabinet_rusty, 	*, -1, 3000 // MMG Armored Cabinet Rusty
+mmg_old_safe_green, 		*, -1, 3000 // MMG Old Safe Green
+mmg_old_safe_grey, 			*, -1, 3000 // MMG Old Safe Green
+
+mmg_fridge_kit_beige, 		*, -1, 3700 // MMG Fridge Kit Beige
+mmg_fridge_kit_blue, 		*, -1, 3700 // MMG Fridge Kit Blue
+mmg_gear_stand_kit,			*, -1, 3700 // MMG Gear Stand Kit
+mmg_toolwagon_kit,		    *, -1, 3700 // MMG Toolwagon Kit
+mmg_palette_storage_kit,    *, -1, 3700 // MMG Palette Storage Kit
+mmg_planter_box_kit,		*, -1, 2500 // MMG Planter Box Kit
+mmg_greenhouse_kit, 		*, -1, 2500 // MMG Greenhouse Kit
+
+
+ 
+		    
+		
+<Trader> Торговец оружием
+	<Category> Рукопашная	
+		Mace,	W,						7250,		2265 // Булава
+		BrassKnuckles_Shiny,	W,		1250,		865 // Кастет
+		BrassKnuckles		,	W,		1250,		865
+		StunBaton,				W,		1250,		865 // Элекрошокер
+		Pipe,					W,		1450,		825 // Труба
+		CattleProd,				W,		1450,		825 // Электрокнут
+		BaseballBat,			W,		1500,		1350 // Бейсбольная бита
+		NailedBaseballBat,		W,		-1,			1450 // Бита с гвоздями
+		CrudeMachete,           W,      1500,       1180 // Примитивное мачете
+		Machete,                W,      5600,       1100 // Мачете
+		FarmingHoe,             W,      5600,       1100 // Мотыга
+		KukriKnife,             W,      5600,       1100 // Кукри
+		MeatTenderizer,         W,      4600,       1100 // Молоток для отбивания мяса
+		Crossbow   ,       		W,      30550,     2250 // Арбалет
+		Crossbow_Autumn,   		W,      30550,     2250 // Арбалет
+		Crossbow_Black,    		W,      30550,     2250 // Арбалет
+		Crossbow_Summer,   		W,      30550,     2250 // Арбалет
+		Crossbow_Wood,     		W,      30550,     2250 // Арбалет
+
+	<Category> Пистолеты
+		Derringer_Black,        W,		4000,	200 // Дерринджер
+		Derringer_Grey,         W,		4000,	200 // Дерринджер
+		Derringer_Pink,         W,		4000,	200 // Дерринджер
+		Flaregun,               W,		4000,	800 // Сигнальный пистолет
+		MakarovIJ70,			W,		5000,	1000 // ИЖ-70
+		P1,                     W,      6000,   1200 // P1
+		CZ75,					W,		7000,	1350 // CR-75
+		FNX45,					W,		7500,	1450 // FX-45
+		Glock19,				W,		6500,	1250 // Mlock-91
+		MKII,					W,		4500,   850 // MK II
+		Longhorn,               W,      6000,   1200
+		Colt1911,				W,		6000,   1200 // Kolt 1911
+		Engraved1911,			W,		6500,   1300 // Kolt 1911 с рисунком
+		Magnum,                 W,      7000,   1350 // Револьвер
+		Deagle,                 W,      7500,   1400 // Deagle
+		Deagle_Gold,            W,      -1,     18	00 // Deagle
+		
+	<Category> Винтовки
+		SV98,                   W,      34000,   5000 // ВС-89
+	    Ruger1022,              W,      10000,   2000 // Sporter 22
+		Izh18,					W,		8000,    1600 // БK-18
+		SSG82,                  W,      15000,   3000 // SSG 82
+		Mosin9130,				W,		15000,	 3000 // Винтовка Мосин 91/30
+		CZ527,					W,		10000,	 2000 // CR-527
+		Winchester70,			W,		20000,	 4000 // M70 Tundra
+		SKS,					W,		20000,	 4000 // СК 59/66
+		Repeater,               W,      18000,   3600 // Карабин c магазином
+		Scout,                  W,      16000,   3200 // Pioneer
+		Scout_Chernarus,        W,      16000,   3200 // Pioneer
+		Scout_Livonia,          W,      17000,   3250 // Pioneer
+		B95,					W,		20000,   4000 // Blaze
+		CZ550,                  W,      20000,   4000 // CR-550 Savanna
+		VSS,					W,		-1,   5200 // ВСС
+		SVD,					W,		-1,   20000 // ВСД
+		M14,                    W,      -1,   30500 // DMR
+		
+	<Category> Дробовики
+		Mp133Shotgun,			W,		15000,	3600 // БК-133
+		Izh43Shotgun,			W,		12000,	3200 // БК-43
+		Saiga,					W,		25000,	3000 // Вайга
+		Izh18Shotgun,           W,      15000,  3000 // БK-12
+		
+	<Category> Пистолет-пулемёты
+		CZ61,					W,		10000,	2000 // CR-61 Skorpion
+		UMP45,					W,		12000,	2400 // USG-45
+		MP5K,					W,		12000,	2400 // SG5-K
+		PP19,                   W,      18000,  3600 // Бизон
+		AKS74U,					W,		20000,	4000 // КАС-74У
+		
+	<Category> Автоматические винтовки
+		FAL,					W,		-1,		16500 // LAR
+		AKM,					W,		-1,		33000 // КА-M
+		AK101,					W,		-1,		15000 // КА-101
+		AK101_Black,			W,		-1,		15000 // КА-101
+		AK101_Green,			W,		-1,		15000 // КА-101
+		AK74,					W,		-1,		15000 // КА-74
+		M16A2,                  W,      -1, 	13000 // M16-A2
+		Aug,                    W,      -1, 	20600 // AUR AX
+		AugShort,               W,      -1,  	20600 // AUR A1
+		FAMAS,                  W,      -1,  	13600 // LE-MAS
+		M4A1,					W,		-1,		45000 // M4-A1
+		M4A1_Black,				W,		-1,		45000 // M4-A1
+		M4A1_Green,				W,		-1,		45000 // M4-A1
+		ASVAL,                  W,      -1,  	15200 // СВАЛ
+		Vikhr,                  W,      -1,  	14800 // Вихрь
+	<Category>Элитное
+ 		ArzzzM249SAW,		            W,		200000,		37000 // Пулемёт M249SAW
+		ArzzzM240,	              	    W,		201000,		37000 // Пулемёт M240
+		ArzzzPKM,		             	W,		201000,	    37000 // Пулемёт ПКМ
+		ArzzzVSSK,		                W,		711000,		37000 // Выхлоп
+		ArzzzBarret,		            W,		511000,		37000 // Barrett M82
+		ArzzzM98B,		                W,		501000,		37000 // Barrett M98B
+		ArzzzL96A1,	                  	W,		501000,		37000 // L96A1
+		ArzzzKSVK,		                W,		501000,		37000 // KSVK
+		ArzzzKORD,		                W,		501000,		37000 // КОРД
+		ArzzzSVD,	         	        W,		501000,		37000 // СВД-М
+		ArzzzM300,	         	        W,		501000,		37000 // M300
+		ArzzzDROB,	         	        W,		501000,		37000 // Мега-дробовик
+		ArzzzDROBShort,	         	    W,		501000,		37000 // Мега-дробовик короткий
+		ArzzzM79,	         	        W,		501000,		37000 // M79
+		OMI_Weapon5_HK512_BlackFull,		W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_BlackWhite,		W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_BlackWhiteAnime,	W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_BlueBlack,		W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_BlueWhite,		W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_BlueWhiteAnime,	W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_Desert,			W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_GreenBlack,		W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_GreenWhite,		W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_OrangeBlack,		W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_OrangeWhite,		W,		-1,		1 // HK512
+		OMI_Weapon5_HK512_OrangeWhiteAnime,	W,		-1,		1 // HK512
+		
+	<Category> Взрывчатое
+	    M79,                    *,      -1, 5000 // M79
+		RGD5Grenade,			*,		-1,	400 // Оск. граната ЕГД-5
+		M67Grenade,				*,		-1,	400 // Оск. граната 6-M7
+		M18SmokeGrenade_Red,	*,		-1,	200 // Дым. граната 1-M8
+		M18SmokeGrenade_Green,	*,		-1,	200 // Дым. граната 1-M8
+		M18SmokeGrenade_Yellow,	*,		-1,	200 // Дым. граната 1-M8
+		M18SmokeGrenade_Purple,	*,		-1,	200 // Дым. граната 1-M8
+		M18SmokeGrenade_White,	*,		-1,	200 // Дым. граната 1-M8
+		RDG2SmokeGrenade_Black,	*,		-1,	200 // Дым. граната ЕГД-2
+		RDG2SmokeGrenade_White,	*,		-1,	200 // Дым. граната ЕГД-2
+		FlashGrenade,			*,		-1,	400 // Светошум. граната 8-M4
+		Ammo_40mm_Chemgas,      *,      -1, 400
+		Ammo_40mm_Explosive,    *,      -1, 400 // 40-мм фугасная граната
+		Ammo_40mm_Smoke_Black,  *,      -1, 200 // Ammo_40mm_Smoke_Black
+		Ammo_40mm_Smoke_Green,  *,      -1, 200 // Ammo_40mm_Smoke_Green
+		Ammo_40mm_Smoke_Red,    *,      -1, 200 // Ammo_40mm_Smoke_Red
+		Ammo_40mm_Smoke_White,  *,      -1, 200 // Ammo_40mm_Smoke_White
+		ClaymoreMine,           *,      -1, 1000 // Мина «Клеймор»
+		Plastic_Explosive,      *,      -1, 12000 // Пластичная взрывчатка
+		OMI_Weapon5_Ammo_HK512, 300,     20000, 12000 // 5.56x45hk modern
+		
+		
+
+
+		
+	
+		
+<Trader> Торговец боеприпасами и запчастями
+	<Category> Боеприпасы по одному
+		Ammo_380,				1,		20,	    2 // Патроны .380 ACP
+		Ammo_9x19,				1,		20,		2 // Патроны 9x19 мм
+		Ammo_22,				1,		20,		2 // Патроны .22 LR
+		Ammo_45ACP,				1,		20,		2 // Патроны .45 ACP
+		Ammo_12gaPellets,		1,		50,		5 // Ружейные патроны 12 калибра
+		Ammo_12gaSlug,			1,		50,		5 // Патроны 12 калибра с нарезами
+		Ammo_9x39,				1,		60,		6 // Патроны 9x39 мм
+		Ammo_9x39AP,			1,		80,		8 // Бронебойные патроны 9х39 мм
+		Ammo_308Win,			1,		60,		6 // Патроны .308 WIN
+		Ammo_545x39,			1,		50,		5 // Патроны 5,45x39 мм
+		Ammo_556x45,			1,		50,		5 // Патроны 5,56x45 мм
+		Ammo_762x39,			1,		50,		5 // Патроны 7,62x39 мм
+		Ammo_556x45Tracer,		1,		60,         6 // Трассирующие патроны 5,56x45 мм
+		Ammo_545x39Tracer,		1,		60,		    6 // Трассирующие патроны 5,45x39 мм
+		Ammo_308WinTracer,		1,		70,	        7 // Трассирующие патроны .308 WIN
+		Ammo_762x39Tracer,		1,		60,		    6 // Трассирующие патроны 7,62x39 мм
+		Ammo_Flare,				1,		150,		15 // Сигнальная ракета
+	    Ammo_FlareBlue,			1,		150,		15 // Сигнальная ракета
+	    Ammo_FlareGreen,		1,		150,		15 // Сигнальная ракета
+	    Ammo_FlareRed,			1,		150,		15 // Сигнальная ракета
+        Ammo_357_20Rnd,         1,		25,         3
+		Ammo_762x54Tracer,      1,      80,         8 // Трассирующие патроны 7,62x54 мм R
+		Ammo_762x54,            1,      70,         7 // Патроны 7,62x54 мм R
+		<Category> Партоны без коробки (стаком).
+		Ammo_22,                50,     800,    80 // Патроны .22 LR
+		Ammo_380,               35,     700,    70 // Патроны .380 ACP
+		Ammo_9x19,              35,     700,    70 // Патроны 9x19 мм
+		Ammo_45ACP,             35,     750,    75 // Патроны .45 ACP
+		Ammo_9x39,				20,		1200,	120 // Патроны 9x39 мм
+		Ammo_9x39AP,			20,		1600,	160 // Бронебойные патроны 9х39 мм
+		Ammo_308Win,			20,		1200,	120 // Патроны .308 WIN
+		Ammo_545x39,			20,		1000,	100 // Патроны 5,45x39 мм
+		Ammo_556x45,			20,		1000,	100 // Патроны 5,56x45 мм
+		Ammo_762x39,			20,		1000,	100 // Патроны 7,62x39 мм
+		Ammo_556x45Tracer,		20,		1200,   120 // Трассирующие патроны 5,56x45 мм
+		Ammo_545x39Tracer,		20,		1200,	120 // Трассирующие патроны 5,45x39 мм
+		Ammo_308WinTracer,		20,		1400,   140 // Трассирующие патроны .308 WIN
+		Ammo_762x39Tracer,		20,		1200,	120 // Трассирующие патроны 7,62x39 мм
+		Ammo_357_20Rnd,         20,		400,    40
+		Ammo_762x54,			20,		1400,	140 // Патроны 7,62x54 мм R
+		Ammo_762x54Tracer,		20,		1600,   160 // Трассирующие патроны 7,62x54 мм R
+		// When changing Prices here keep in Mind that Players
+		// can just unpack the Ammoboxes and sell the Ammo seperatly!
+		// Originally the Ammoboxes buying Price is 20% less than
+		// buying single Ammo. The Selling Price is the same as
+		// selling the Ammo seperately.
+		<Category> Патроны в коробках
+		Arzzz_Ammo_127x108,		        *,		11000,		7000 // 12.7×108
+		Arzzz_Ammo_127x108_HE,	        *,		11000,		7000 // 12.7×108HE
+		Arzzz_Ammo_127x99,		        *,		11000,		7000 // 12,7x99
+		Arzzz_Ammo_127x55,	         	*,		11000,		7000 // 12.7x55
+		Arzzz_Ammo_408,			        *,		11000,	    7000 // 408
+		Arzzz_Ammo_375,			        *,		11000,	    7000 // 375
+		Arzzz_Ammo_375S,			    *,		11000,	    7000 // 375S
+		Arzzz_Ammo_338,		            *,		11000,		7000 // .338LM
+		Arzzz_Ammo_Laser,		        *,		11000,		7000 // Лазерный заряд
+		Arzzz_Ammo_DROB,		        *,		11000,		7000 // Картечь
+		Arzzz_Ammo_HE,		            *,		11000,		7000 // HE
+		AmmoBox_380_35rnd,		*,		700,		70 // Коробка патронов .380 ACP
+		AmmoBox_9x19_25rnd,		*,		700,		70 // Коробка патронов 9x19 мм
+		AmmoBox_45ACP_25rnd,	*,		750,		75 // Коробка патронов .45 ACP
+		AmmoBox_22_50Rnd,		*,		800,		80 // Коробка патронов .22 LR
+		AmmoBox_357_20Rnd,      *,      400,        40 // Коробка патронов .357
+		AmmoBox_00buck_10rnd,	*,		240,		24 // Коробка ружейных патронов 12 калибра
+		AmmoBox_12gaSlug_10Rnd,	*,		500,		50 // Нарезные патроны 12 кал.
+		AmmoBox_9x39_20Rnd,		*,		1200,		120 // Коробка патронов 9x39 мм
+		AmmoBox_9x39AP_20Rnd,	*,		1600,       160 // Коробка бронебойных патронов 9х39 мм
+		AmmoBox_308Win_20Rnd,	*,		1200,		120 // Коробка патронов .308 WIN
+		AmmoBox_545x39_20Rnd,	*,		1000,		100 // Коробка патронов 5,45x39 мм
+		AmmoBox_556x45_20Rnd,	*,		1000,		100 // Коробка патронов 5,56x45 мм
+		AmmoBox_762x39_20Rnd,	*,		1000,       100 // Коробка патронов 7,62x39 мм
+		AmmoBox_762x54_20Rnd,	*,		1400,	    140 // Коробка патронов 7,62x54 мм R
+		AmmoBox_308WinTracer_20Rnd,		*,		1400,	 140 // Коробка трассирующих патронов .308 WIN
+		AmmoBox_545x39Tracer_20Rnd,		*,		1200,    120 // Коробка трассирующих патронов 5,45x39 мм
+		AmmoBox_556x45Tracer_20Rnd,		*,		1200,    120 // Коробка трассирующих патронов 5,56x45 мм
+		AmmoBox_762x39Tracer_20Rnd,		*,		1200,    120 // Коробка трассирующих патронов 7,62x39 мм
+		AmmoBox_762x54Tracer_20Rnd,		*,		1600,	 160 // Коробка трассирующих патронов 7,62x54 мм R
+		
+		
+	<Category> Магазины к оружию
+		Mag_SV98_10Rnd,			M,		5300,	560 // Магазин для ВС-89, 10 пат.
+		Mag_IJ70_8Rnd,			M,		1300,	260 // Магазин ИЖ-70, 12 пат.
+		Mag_P1_8Rnd,            M,      1350,   270 // Магазин P1, 8 пат.
+		Mag_CZ75_15Rnd,			M,		1400,	280 // Магазин CR-75, 15 пат.
+		Mag_Glock_15Rnd,		M,		1400,	280 // Магазин Mlock-91, 15 пат.
+		Mag_MKII_10Rnd,			M,		1400,	280 // Магазин MK II, 10 пат.
+		Mag_1911_7Rnd,			M,		1400,	280 // Магазин Kolt 1911, 7 пат.
+		Mag_FNX45_15Rnd,		M,		1400,	280 // Магазин FX-45, 15 пат.
+		Mag_Deagle_9rnd,        M,      1600,   320 // Магазин Deagle, 9 пат.
+		Mag_Ruger1022_15Rnd,    M,      1500,   300 // Магазин Sporter 22, 15 пат.
+		Mag_Ruger1022_30Rnd,    M,      1700,   340 // Магазин Sporter 22, 30 пат.
+		Mag_CZ527_5rnd,			M,		1600,	320 // Магазин CR-527, 5 пат.
+		Mag_SSG82_5rnd,         M,      1800,   360 // Магазин SSG 82, 5 пат.
+		Mag_CZ61_20Rnd,			M,		2000,	400 // Магазин CR-61, 20 пат.
+		Mag_UMP_25Rnd,			M,		2200,	440 // Магазин USG-45, 25 пат.
+		Mag_MP5_15Rnd,          M,      1500,   300 // Магазин SG5-K, 15 пат.
+		Mag_MP5_30Rnd,			M,		2200,	440 // Магазин SG5-K, 30 пат.
+		Mag_PP19_64Rnd,         M,      1500,   300 // Магазин Бизон, 64 пат.
+		Mag_FAL_20Rnd,			M,		3000,	600 // Магазин LAR, 20 пат.
+		Mag_Saiga_5Rnd,			M,		1000,	200 // Магазин Вайга, 5 пат.
+		Mag_Saiga_8Rnd,			M,		2200,	440 // Магазин Вайга, 8 пат.
+		Mag_Saiga_Drum20Rnd,	M,		4800,	960 // Брб. магазин Вайга, 20 пат.
+		Mag_AKM_30Rnd,			M,		2200,	440 // Магазин КА-M, 30 пат.
+		Mag_AKM_Palm30Rnd,		M,		2200,	440 // Плм. магазин КА-M, 30 пат.
+		Mag_AKM_Drum75Rnd,		M,		-1,		2960 // Брб. магазин КА-M, 75 пат
+		Mag_AK101_30Rnd,		M,		2200,	440 // Магазин КА-101, 30 пат.
+		Mag_AK74_30Rnd,			M,		2200,	440 // Магазин КА-74, 30 пат.
+		Mag_STANAG_30Rnd,		M,		2200,	440 // Станд. магазин, 30 пат.
+		Mag_STANAGCoupled_30Rnd,M,		4800,	960 // Стнд. сдв. магазин, 30 пат.
+		Mag_STANAG_60Rnd,       M,      -1,   1000 // Станд. магазин, 60 пат.
+		Mag_CMAG_10Rnd,			M,		1200,	240 // Магазин Mag-C, 10 пат.
+		Mag_CMAG_20Rnd,			M,		1800,	360 // Магазин Mag-C, 20 пат.
+		Mag_CMAG_30Rnd,			M,		2200,	440 // Магазин Mag-C, 30 пат.
+		Mag_CMAG_40Rnd,			M,		43000,	600 // Магазин Mag-C, 40 пат.
+		Mag_VSS_10Rnd,			M,		2200,	440 // Магазин ВСС, 10 пат.
+		Mag_SVD_10Rnd,			M,		2500,	500 // Магазин ВСД, 10 пат.
+		Mag_308WinSnaploader_2Rnd,		M,		2500,	500
+		Mag_Aug_30Rnd,          M,      2200,   440 // Магазин AUR, 30 пат.
+		Mag_FAMAS_25Rnd,        M,      2200,   440 // Магазин LE-MAS, 25 пат.
+		Mag_CZ550_10Rnd,        M,      1500,   300
+		Mag_Scout_5Rnd,         M,      2000,   400 // Магазин Pioneer на 5 пат.
+		Mag_VAL_20Rnd,          M,      3000,   600 // Магазин СВАЛ, 20 пат.
+		Mag_ASC_PKM_200Rnd,     M,      100000,  2000
+		Mag_Vikhr_30Rnd,        M,      -1,   	5600 // Магазин Вихрь, 30 пат. 
+		Mag_M14_10Rnd,          W,      2500,   250 // Магазин DMR, 10 пат.
+		Mag_M14_20Rnd,          W,      4500,   450 // Магазин DMR, 20 пат.
+		ArzzzM249SAW_Mag,		        *,		71000,		7000 // Магазин M249SAW
+		ArzzzM240_Mag,		            *,		71000,		7000 // Магазин для M240
+		ArzzzPKM_Mag,		            *,		71000,		7000 // Магазин для ПКМ
+		ArzzzVSSK_Mag,	         	    *,		71000,		200 // Магазин для VSSK
+		ArzzzBarret_Mag,		        *,		71000,	    200 // Магазин для Barrett M82
+		ArzzzM98B_Mag,		            *,		71000,		200 // Магазин для M98B
+		ArzzzL96A1_Mag,	                *,		71000,		200 // Магазин для L96A1
+		ArzzzM200_Mag,		            *,		71000,		200 // Магазин для M200
+		ArzzzKSVK_Mag,	         	    *,		71000,		200 // Магазин для KSVK
+		ArzzzKORD_Mag,			        *,		71000,	    200 // Магазин KORD
+		ArzzzMinigun_Mag,		        *,		71000,		200 // Батарея для Gatling Laser
+		ArzzzM300_Mag,		            *,		71000,		200 // Магазин для M300
+		Mag_AK74_45Rnd,		            *,		71000,		200 // Магазин КА-74, 45 пат.
+	<Category> Цевья к оружию
+		MP5_PlasticHndgrd,		*,		1000,	100 // Полимерное цевьё SG5-K
+		MP5_RailHndgrd,			*,		1500,	150 // Реечная ствольная накладка SG5-K
+		AK74_Hndgrd,			*,		1500,	150 // Деревянное цевьё КА
+		AK_WoodHndgrd,			*,		2000,	200 // Деревянное цевьё КА
+		AK_RailHndgrd,			*,		2000,	200 // Реечная ствольная накладка КА
+		AK_PlasticHndgrd,		*,		2000,	200 // Полимерная ствольная накладка КА
+		M4_PlasticHndgrd,		*,		1500,	150 // Полимерное цевьё M4-A1
+		M4_RISHndgrd,			*,		2000,	200 // Реечное цевьё M4-A1
+		M4_MPHndgrd,			*,		2000,	200 // Цевьё MP для M4-A1
+
+	<Category> Приклады к оружию
+		PP19_Bttstck,			*,		-1,	2200 // Легкий приклад для Бизона
+		MP5k_StockBttstck,		*,		-1,	2200 // Легкий приклад для SG5-K
+		Fal_OeBttstck,			*,		-1,	2200 // Полимерный приклад LAR
+		Fal_FoldingBttstck,		*,		-1,	2250 // Легкий приклад для LAR
+		Saiga_Bttstck,			*,		-1,	2250 // Легкий приклад для Вайги
+		AKS74U_Bttstck,			*,		-1,	2250 // Легкий приклад для КАС-74У
+		AK74_WoodBttstck,		*,		-1,	2250 // Деревянный приклад КА
+		AK_PlasticBttstck,		*,		-1,	2200 // Полимерный приклад КА
+		AK_WoodBttstck,			*,		-1,	2150 // Деревянный приклад КА
+		AK_FoldingBttstck,		*,		-1,	2250 // Легкий приклад для КА
+		M4_OEBttstck,			*,		-1,	2150 // Складной приклад для M4-A1
+		M4_CQBBttstck,			*,		-1,	2150 // Короткий приклад M4-A1
+		M4_MPBttstck,			*,		-1,	2150 // Приклад MP для M4-A1
+	
+	<Category> Оптика
+		M4_CarryHandleOptic,	*,		-1,	4800 // Прицел M4-A1 с рукояткой для переноски
+		BUISOptic,				*,		-1,	4800 // Запасной механический прицел
+		FNP45_MRDSOptic,		*,		-1,	1200 // Мини-прицел
+		ReflexOptic,            *,      -1, 1200 // Прицел Baraka
+		PistolOptic,            *,      -1, 1000 // Пистолетный прицел
+		ACOGOptic,				*,		-1,	6000 // Прицел ATOG 4x32
+		ACOGOptic_6x,           *,      -1, 9000 // Прицел ATOG 6x48
+		M68Optic,				*,		-1,	4000 // Оружейный прицел
+		M4_T3NRDSOptic,			*,		-1,	4000 // Прицел RVN
+		KobraOptic,				*,		-1,	4000 // Коллиматор Кобра
+		KashtanOptic,			*,		-1,	4000 // Прицел П1-87-Л
+		PUScopeOptic,			*,		-1,	4000 // Прицел ПУ
+		HuntingOptic,			*,		-1,	20000 // Охотничий прицел
+		PSO1Optic,				*,		-1,	4000 // Прицел ПСО-1
+		PSO11Optic,				*,		-1,	4000 // Прицел ПСО-1-1
+		KazuarOptic,			*,		-1, 24000 // Прицел 1ПН51
+		StarlightOptic,         *,      -1, 24000 // Прицел NV-PVS4
+	
+	<Category> Глушители
+		PistolSuppressor,		*,		-1,	4000 // Пистолетный глушитель
+		AK_Suppressor,			*,		-1,	4500 // Обычный глушитель
+		M4_Suppressor,			*,		-1,	4500 // Стандартный глушитель
+		
+	<Category> Компенсаторы
+		Mosin_Compensator,		*,		-1,	1150 // Надульник Мосин 91/30
+		MP5_Compensator,		*,		-1,	1200 // Надульник SG5-K
+		TLRLight,				*,		-1,	1200 // Фонарик для пистолета
+	<Category> Штык ножи к оружию
+		Mosin_Bayonet,			*,		-1,	1000 // Штык для винтовки Мосин 91/30
+		M9A1_Bayonet,			*,		-1,	1500 // Штык для M4-A1
+		AK_Bayonet,				*,		-1,	1500 // Штык для КА
+		SKS_Bayonet,			*,		-1,	1000 // Штык для винтовки СК 59/66
+		
+		
+		
+		
+		
+	<Category> Фонарь
+		Universallight,			*,		2200,	220
+		gpsreceiver	,			*,		2200,	220
+	
+<Trader> Торговец одеждой
+	<Category> Очки
+		SportGlasses_Orange,	*,		500,		50 // Спортивные солнцезащитные очки
+		SportGlasses_Blue,		*,		500,		50 // Спортивные солнцезащитные очки
+		SportGlasses_Black,		*,		500,		50 // Спортивные солнцезащитные очки
+		SportGlasses_Green,		*,		500,		50 // Спортивные солнцезащитные очки
+		ThinFramesGlasses,		*,		500,		50 // Тонкие очки
+		ThickFramesGlasses,		*,		500,		50 // Классические очки
+		DesignerGlasses,		*,		500,		50 // Обычные солнцезащитные очки
+		AviatorGlasses,			*,		600,		60 // Авиаторы
+		TacticalGoggles,		*,		1000,		100 // Тактические очки
+		NVGHeadstrap,			*,		5000,	    500 // Ремешок для очков ночного видения
+ 
+		Armband_Pink,			*,		1500,		150 // Нарукавная повязка
+		Armband_Yellow,			*,		1500,		150 // Нарукавная повязка
+		Armband_Orange,			*,		1500,		150 // Нарукавная повязка
+		Armband_Red,			*,		1500,		150 // Нарукавная повязка
+		Armband_Blue,			*,		1500,		150 // Нарукавная повязка
+		Armband_White,			*,		1500,		150 // Нарукавная повязка
+		Armband_Black,			*,		1500,		150 // Нарукавная повязка
+		Armband_Green,			*,		1500,		150 // Нарукавная повязка
+ 	
+	<Category> Перчатки
+		SurgicalGloves_LightBlue,*,		500,		    50 // Хирургические перчатки
+		SurgicalGloves_Blue,	*,		500,		    50 // Хирургические перчатки
+		SurgicalGloves_White,	*,		500,		    50 // Хирургические перчатки
+		SurgicalGloves_Green,	*,		500,		    50 // Хирургические перчатки
+		WorkingGloves_Yellow,	*,		1000,		100 // Рабочие перчатки
+		WorkingGloves_Beige,	*,		1000,		100 // Рабочие перчатки
+		WorkingGloves_Brown,	*,		1000,		100 // Рабочие перчатки
+		WorkingGloves_Black,	*,		1000,		100 // Рабочие перчатки
+		TacticalGloves_Beige,	*,		2500,		250 // Тактические перчатки
+		TacticalGloves_Black,	*,		2500,		250 // Тактические перчатки
+		TacticalGloves_Green,	*,		2500,		250 // Тактические перчатки
+		OMNOGloves_Gray,		*,		-1,		2400 // Боевые перчатки
+		OMNOGloves_Brown,		*,		-1,		2400 // Боевые перчатки
+		NBCGlovesGray,			*,		-1,		850 // Рукавицы химкостюма
+		NBCGlovesYellow,        *,      -1,       800 // Рукавицы химкостюма
+
+	<Category> Шляпы и кепки
+		WitchHood_Black,		*,		94200,		    9020 // Ведьминский капюшон
+		WitchHood_Brown,		*,		94200,		    9020 // Ведьминский капюшон
+		WitchHood_Red,	    	*,		94200,		    9020 // Ведьминский капюшон
+		WitchHat,				*,		90000,		    9020 // Ведьминский колпак
+		MedicalScrubsHat_Blue,	*,		200,		    20 // Шапочка медика
+		MedicalScrubsHat_White,	*,		200,		    20 // Шапочка медика
+		MedicalScrubsHat_Green,	*,		200,		    20 // Шапочка медика
+		BaseballCap_CMMG_Pink,	*,		1200,		120 // Бейсболка
+		BaseballCap_Pink,		*,		1200,		120 // Бейсболка
+		BaseballCap_Red,		*,		1200,		120 // Бейсболка
+		BaseballCap_Blue,		*,		1200,		120 // Бейсболка
+		BaseballCap_Beige,		*,		1200,		120 // Бейсболка
+		BaseballCap_CMMG_Black,	*,		1200,		120 // Бейсболка
+		BaseballCap_Black,		*,		1300,		130 // Бейсболка
+		BaseballCap_Olive,		*,		1400,		140 // Бейсболка
+		BaseballCap_Camo,		*,		1600,		160 // Бейсболка
+		PrisonerCap,			*,		200,		20 // Кепка заключенного
+		BoonieHat_Orange,		*,		200,		20 // Панама
+		BoonieHat_Red,			*,		200,		20 // Панама
+		BoonieHat_Blue,			*,		200,		20 // Панама
+		BoonieHat_NavyBlue,		*,		200,		20 // Панама
+		BoonieHat_Black,		*,		200,		20 // Панама
+		BoonieHat_Tan,			*,		280,		28 // Панама
+		BoonieHat_Olive,		*,		280,		28 // Панама
+		BoonieHat_DPM,			*,		300,		30 // Панама
+		BoonieHat_Dubok,		*,		300,		30 // Панама
+		BoonieHat_Flecktran,	*,		300,		30 // Панама
+		CowboyHat_Brown,		*,		1500,		150 // Ковбойская шляпа
+		CowboyHat_darkBrown,	*,		1500,		150 // Ковбойская шляпа
+		CowboyHat_black,		*,		1500,		150 // Ковбойская шляпа
+		CowboyHat_green,		*,		1500,		150 // Ковбойская шляпа
+		PilotkaCap,				*,		300,	    30 // Пилотка
+		OfficerHat,				*,		300,	    30 // Офицерская фуражка
+		PoliceCap,				*,		300,	    30 // Полицейская фуражка
+		MilitaryBeret_ChDKZ,	*,		1500,		150 // Берет
+		MilitaryBeret_Red,		*,		1500,		150 // Берет
+		MilitaryBeret_UN,		*,		1500,		150 // Берет
+		MilitaryBeret_CDF,		*,		1500,		150 // Берет
+		MilitaryBeret_NZ,		*,		1500,		150 // Берет
+		BeanieHat_Pink,			*,		300,		    30 // Вязаная шапка
+		BeanieHat_Red,			*,		300,		    30 // Вязаная шапка
+		BeanieHat_Blue,			*,		300,		    30 // Вязаная шапка
+		BeanieHat_Grey,			*,		300,		    30 // Вязаная шапка
+		BeanieHat_Beige,		*,		300,		    30 // Вязаная шапка
+		BeanieHat_Brown,		*,		300,		    30 // Вязаная шапка
+		BeanieHat_Black,		*,		300,		    30 // Вязаная шапка
+		BeanieHat_Green,		*,		300,		    30 // Вязаная шапка
+		FlatCap_Red,			*,		300,		    30 // Кепка
+		FlatCap_Blue,			*,		300,		    30 // Кепка
+		FlatCap_BrownCheck,		*,		300,		    30 // Кепка
+		FlatCap_GreyCheck,		*,		300,		    30 // Кепка
+		FlatCap_Grey,			*,		300,		    30 // Кепка
+		FlatCap_Brown,			*,		300,		    30 // Кепка
+		FlatCap_Black,			*,		300,		    30 // Кепка
+		FlatCap_BlackCheck,		*,		300,		    30 // Кепка
+		ZmijovkaCap_Red,		*,		500,		    50 // Змеёвка
+		ZmijovkaCap_Blue,		*,		500,		    50 // Змеёвка
+		ZmijovkaCap_Brown,		*,		500,		    50 // Змеёвка
+		ZmijovkaCap_Black,		*,		500,		    50 // Змеёвка
+		ZmijovkaCap_Green,		*,		500,		    50 // Змеёвка
+		RadarCap_Red,			*,		400,		    40 // Вязаная шапка с козырьком
+		RadarCap_Blue,			*,		400,		    40 // Вязаная шапка с козырьком
+		RadarCap_Brown,			*,		400,		    40 // Вязаная шапка с козырьком
+		RadarCap_Black,			*,		500,		    50 // Вязаная шапка с козырьком
+		RadarCap_Green,			*,		500,		    50 // Вязаная шапка с козырьком
+		Ushanka_Blue,			*,		2200,		220 // Шапка-ушанка
+		Ushanka_Black,			*,		2200,		220 // Шапка-ушанка
+		Ushanka_Green,			*,		2200,		220 // Шапка-ушанка
+		NBCHoodGray,			*,		-1,	    830 // Капюшон химкостюма
+        NBCHoodYellow,          *,      -1,       780 // Капюшон химкостюма
+
+	<Category> Шлема
+		Headdress_Wolf,				*,	-1,			1530 // Шапка охотника
+		BallisticHelmet_BDU,		*,	8300,		3530 // Камуфляжный шлем
+		BallisticHelmet_Black,		*,	8300,		3530 // Баллистический шлем
+		BallisticHelmet_Green,		*,	8300,		3530 // Баллистический шлем
+		BallisticHelmet_Navy,		*,	8300,		3530 // Камуфляжный шлем
+		BallisticHelmet_UN,			*,	8300,		3530 // Баллистический шлем
+		BallisticHelmet_Winter,		*,	8300,		3530 // Камуфляжный шлем
+		BallisticHelmet_Woodland,	*,	8300,		3530 // Камуфляжный шлем
+		BallisticHelmet,			*,	8300,		3530
+		BallisticHelmet_Desert,		*,	8300,		3530 // Камуфляжный шлем
+		ConstructionHelmet_Yellow,*,	1300,		130 // Строительная каска
+		ConstructionHelmet_Orange,*,	1300,		130 // Строительная каска
+		ConstructionHelmet_Red,	*,		1300,		130 // Строительная каска
+		ConstructionHelmet_Blue,*,		1300,		130 // Строительная каска
+		ConstructionHelmet_White,*,		1300,    	130 // Строительная каска
+		ConstructionHelmet_Lime,*,		1300,    	130 // Строительная каска
+		SkateHelmet_Red,		*,		1450,		145 // Скейтерский шлем
+		SkateHelmet_Blue,		*,		1450,		145 // Скейтерский шлем
+		SkateHelmet_Gray,		*,		1450,		145 // Скейтерский шлем
+		SkateHelmet_Black,		*,		1450,		145 // Скейтерский шлем
+		SkateHelmet_Green,		*,		1450,		145 // Скейтерский шлем
+		HockeyHelmet_Red,		*,		1450,		145 // Хоккейный шлем
+		HockeyHelmet_Blue,		*,		1450,		145 // Хоккейный шлем
+		HockeyHelmet_White,		*,		1450,		145 // Хоккейный шлем
+		HockeyHelmet_Black,		*,		1450,		145 // Хоккейный шлем
+		DirtBikeHelmet_Mouthguard,*,	1150,		290 // Капа мотошлема
+		DirtBikeHelmet_Visor,	*,		1250,		290 // Визор мотошлема
+		DirtBikeHelmet_Green,	*,		1250,		290 // Кроссовый мотошлем
+		DirtBikeHelmet_Red,		*,		1600,		290 // Кроссовый мотошлем
+		DirtBikeHelmet_Blue,	*,		1600,		290 // Кроссовый мотошлем
+		DirtBikeHelmet_Police,	*,		1600,		290 // Кроссовый мотошлем
+		DirtBikeHelmet_Green,	*,		1600,		290 // Кроссовый мотошлем
+		DirtBikeHelmet_Chernarus,*,		1600,		290 // Кроссовый мотошлем
+		DirtBikeHelmet_Black,	*,		1650,		290 // Кроссовый мотошлем
+		DirtBikeHelmet_Khaki,	*,		1700,		290 // Кроссовый мотошлем
+		MotoHelmet_Red,			*,		1700,		290 // Мотоциклетный шлем
+		MotoHelmet_Blue,		*,		1700,		290 // Мотоциклетный шлем
+		MotoHelmet_White,		*,		1700,		290 // Мотоциклетный шлем
+		MotoHelmet_Lime,		*,		1700,		290 // Мотоциклетный шлем
+		MotoHelmet_Grey,		*,		1750,		290 // Мотоциклетный шлем
+		MotoHelmet_Black,		*,		1750,		290 // Мотоциклетный шлем
+		MotoHelmet_Green,		*,		1800,		290 // Мотоциклетный шлем
+		DarkMotoHelmet_Red,		*,		1800,		180 // Мотоциклетный шлем
+		DarkMotoHelmet_Blue,	*,		1800,		180 // Мотоциклетный шлем
+		DarkMotoHelmet_White,	*,		1800,		180 // Мотоциклетный шлем
+		DarkMotoHelmet_Lime,	*,		1800,		180 // Мотоциклетный шлем
+		DarkMotoHelmet_Grey,	*,		1800,		180 // Мотоциклетный шлем
+		DarkMotoHelmet_Black,	*,		1850,		185 // Мотоциклетный шлем
+		DarkMotoHelmet_Green,	*,		1900,		190 // Мотоциклетный шлем
+		TankerHelmet,			*,		1500,	150 // Танковый шлемофон
+		ZSh3PilotHelmet,		*,		11500,	1150 // Летный шлем
+		FirefightersHelmet_Yellow,*,	3000,	300 // Шлем пожарного
+		FirefightersHelmet_Red,	*,		3000,	300 // Шлем пожарного
+		FirefightersHelmet_White,*,		3000,	300 // Шлем пожарного
+		Mich2001Helmet,			*,		-1,		6500 // Тактический шлем
+		GorkaHelmetVisor,		*,		15000,	1500 // Визор штурмового шлема
+		GorkaHelmet,			*,		30000,	3000 // Штурмовой шлем
+		Ssh68Helmet,			*,		20000,	2000 // Боевой шлем
+		GreatHelm,              *,      20000,  2000 // Средневековый шлем
+
+	<Category> Маски
+	    
+	    Bandana_Redpattern,     *,      1000,    100
+	    Bandana_Polkapattern,   *,      1000,    100
+	    Bandana_Greenpattern,   *,      1000,    100 // Бандана
+	    Bandana_Blackpattern,   *,      1000,    100
+		Bandana_Camopattern,    *,      1000,    100
+		NioshFaceMask,			*,		400,	    40 // Респиратор
+		HockeyMask,				*,		400,		40 // Хоккейная маска
+		Balaclava3Holes_Blue,	*,		500,		50 // Балаклава 
+		Balaclava3Holes_Beige,	*,		500,		50 // Балаклава 
+		Balaclava3Holes_Black,	*,		550,		60 // Балаклава 
+		Balaclava3Holes_Green,	*,		600,		60 // Балаклава 
+		WeldingMask,			*,		700,		70 // Сварочная маска
+		AirborneMask,           *,      30000,    3000 // Респиратор химкостюма
+		GP5GasMask,				*,		30000,	3000 // Противогаз
+		GasMask,                *,      25000,   2500 // Боевой противогаз
+
+	<Category> Толстовки и свитера
+		Sweater_Red,			*,		2000,		200 // Свитер
+		Sweater_Blue,			*,		2000,		200 // Свитер
+		Sweater_Gray,			*,		2000,		200 // Свитер
+		Sweater_Green,			*,		2500,		250 // Свитер
+		Hoodie_Red,				*,		3000,		300 // Толстовка
+		Hoodie_Blue,			*,		3000,		300 // Толстовка
+		Hoodie_Grey,			*,		3000,		300 // Толстовка
+		Hoodie_Brown,			*,		3000,		300 // Толстовка
+		Hoodie_Black,			*,		3000,		300 // Толстовка
+		Hoodie_Green,			*,		3500,		350 // Толстовка
+		
+	<Category> Жилеты
+		ReflexVest,				*,		1500,		150 // Светоотражающий жилет
+		PoliceVest,				*,		8500,		850 // Противоударный жилет
+		HuntingVest,			*,		1500,		150 // Охотничий жилет
+		PressVest_LightBlue,	*,		9000,		900 // Баллистический жилет
+		PressVest_Blue,			*,		9000,		900 // Баллистический жилет
+		UKAssVest_Black,		*,		2350,		235 // Полевой жилет
+		UKAssVest_Khaki,		*,		2350,		235 // Полевой жилет
+		UKAssVest_Olive,		*,		2350,		235 // Полевой жилет
+		UKAssVest_Camo,			*,		2400,	    240 // Полевой жилет
+		SmershVest,				*,		6000,	    600 // Разгрузочный жилет
+		HighCapacityVest_Black,	*,		3500,	    350 // Тактический жилет
+		HighCapacityVest_Olive,	*,		3550,	    355 // Тактический жилет
+		PlateCarrierVest,		*,		15000,	    1500 // Бронежилет
+		PlateCarrierVest_Black,		*,		15000,	    1500 // Бронежилет
+		PlateCarrierVest_Camo,		*,		15000,	    1500 // Бронежилет
+		PlateCarrierVest_Green,		*,		15000,	    1500 // Бронежилет
+		PlateCarrierVest_Winter,		*,		15000,	    1500 // Бронежилет
+		Chestplate,				*,		25000,	    5000 // Кираса
+	<Category> Куртки и пальто
+		LabCoat,				*,		1000,		100 // Лабораторный халат
+		TrackSuitJacket_Red,	*,		1500,		150 // Спортивная куртка
+		TrackSuitJacket_LightBlue,*,    1500,		150 // Спортивная куртка
+		TrackSuitJacket_Blue,	*,		1500,		150 // Спортивная куртка
+		TrackSuitJacket_Black,	*,		1500,		150 // Спортивная куртка
+		TrackSuitJacket_Green,	*,		1500,		150 // Спортивная куртка
+		DenimJacket,			*,		1800,		180 // Джинсовая куртка
+		ManSuit_Blue,			*,		1800,		180 // Пиджак мужской
+		ManSuit_White,			*,		1800,		180 // Пиджак мужской
+		ManSuit_LightGrey,		*,		1800,		180 // Пиджак мужской
+		ManSuit_DarkGrey,		*,		1800,		180 // Пиджак мужской
+		ManSuit_Beige,			*,		1800,		180 // Пиджак мужской
+		ManSuit_Brown,			*,		1800,		180 // Пиджак мужской
+		ManSuit_Black,			*,		1800,		180 // Пиджак мужской
+		ManSuit_Khaki,			*,		1800,		180 // Пиджак мужской
+		WomanSuit_Blue,			*,		1800,		180 // Пиджак женский
+		WomanSuit_White,		*,		1800,		180 // Пиджак женский
+		WomanSuit_LightGrey,	*,		1800,		180 // Пиджак женский
+		WomanSuit_DarkGrey,		*,		1800,		180 // Пиджак женский
+		WomanSuit_Beige,		*,		1800,		180 // Пиджак женский
+		WomanSuit_Brown,		*,		1800,	    180 // Пиджак женский
+		WomanSuit_Black,		*,		1800,		180 // Пиджак женский
+		WomanSuit_Khaki,		*,		1800,		180 // Пиджак женский
+		WoolCoat_Red,			*,		1800,		180 // Бушлат
+		WoolCoat_RedCheck,		*,		1800,		180 // Бушлат
+		WoolCoat_Blue,			*,		1800,		180 // Бушлат
+		WoolCoat_BlueCheck,		*,		1800,		180 // Бушлат
+		WoolCoat_GreyCheck,		*,		1800,		180 // Бушлат
+		WoolCoat_BrownCheck,	*,		1800,		180 // Бушлат
+		WoolCoat_Beige,			*,		1800,		180 // Бушлат
+		WoolCoat_Black,			*,		1900,		190 // Бушлат
+		WoolCoat_BlackCheck,	*,		1900,		190 // Бушлат
+		WoolCoat_Green,			*,		2000,		200 // Бушлат
+		RidersJacket_Black,		*,		2000,		200 // Байкерская куртка
+		FirefighterJacket_Beige,*,		2400,		240 // Куртка пожарного
+		FirefighterJacket_Black,*,		2400,		240 // Куртка пожарного
+		JumpsuitJacket_Red,		*,		2600,		260 // Куртка рабочего
+		JumpsuitJacket_Blue,	*,		2600,		260 // Куртка рабочего
+		JumpsuitJacket_Gray,	*,		2600,		260 // Куртка рабочего
+		JumpsuitJacket_Green,	*,		2600,		260 // Куртка рабочего
+		BomberJacket_Maroon,	*,		2600,		260 // Бомбер
+		BomberJacket_SkyBlue,	*,		2600,		260 // Бомбер
+		BomberJacket_Blue,		*,		2600,		260 // Бомбер
+		BomberJacket_Grey,		*,		2600,		260 // Бомбер
+		BomberJacket_Brown,		*,		2600,		260 // Бомбер
+		BomberJacket_Black,		*,		2800,		280 // Бомбер
+		BomberJacket_Olive,		*,		3000,		300 // Бомбер
+		QuiltedJacket_Orange,	*,		2600,		260 // Телогрейка
+		QuiltedJacket_Yellow,	*,		2600,		260 // Телогрейка
+		QuiltedJacket_Red,		*,		2600,		260 // Телогрейка
+		QuiltedJacket_Violet,	*,		2600,		260 // Телогрейка
+		QuiltedJacket_Blue,		*,		2600,		260 // Телогрейка
+		QuiltedJacket_Grey,		*,		2600,		260 // Телогрейка
+		QuiltedJacket_Black,	*,		2800,		280 // Телогрейка
+		QuiltedJacket_Green,	*,		3000,		300 // Телогрейка
+		PrisonUniformJacket,	*,		2800,		280 // Куртка заключенного
+		PoliceJacketOrel,		*,		3200,		320 // Китель спецподразделения полиции ОРЕЛ
+		PoliceJacket,			*,		3400,		340 // Полицейская куртка
+		ParamedicJacket_Crimson,*,		3600,		360 // Куртка санитара
+		ParamedicJacket_Blue,	*,		3600,		360 // Куртка санитара
+		ParamedicJacket_Green,	*,		3600,		360 // Куртка санитара
+		HikingJacket_Red,		*,		3600,		360 // Походная куртка
+		HikingJacket_Blue,		*,		3800,		380 // Походная куртка
+		HikingJacket_Black,		*,		3800,		380 // Походная куртка
+		HikingJacket_Green,		*,		4000,		400 // Походная куртка
+		Raincoat_Pink,			*,		7000,		700 // Дождевик
+		Raincoat_Orange,		*,		7000,		700 // Дождевик
+		Raincoat_Yellow,		*,		7000,		700 // Дождевик
+		Raincoat_Red,			*,		7000,		700 // Дождевик
+		Raincoat_Blue,			*,		7000,		700 // Дождевик
+		Raincoat_Black,			*,		8000,		800 // Дождевик
+		Raincoat_Green,			*,		10000,	1000 // Дождевик
+		TTsKOJacket_Camo,		*,		10000,	1000 // Боевая куртка
+		BDUJacket,				*,		10000,	1000 // Куртка военнослужащего
+		HuntingJacket_Winter,	*,		12000,	1200 // Охотничья куртка
+		HuntingJacket_Brown,	*,		12000,	1200 // Охотничья куртка
+		HuntingJacket_Autumn,	*,		12000,	1200 // Охотничья куртка
+		HuntingJacket_Spring,	*,		12000,	1200 // Охотничья куртка
+		HuntingJacket_Summer,	*,		12000,	1200 // Охотничья куртка
+		M65Jacket_Tan,			*,		13000,	1300 // Полевая куртка
+		M65Jacket_Black,		*,		13000,	1300 // Полевая куртка
+		M65Jacket_Khaki,		*,		13000,	1300 // Полевая куртка
+		M65Jacket_Olive,		*,		13000,	1300 // Полевая куртка
+		GorkaEJacket_Autumn,	*,		14000,	1400 // Патрульная куртка
+		GorkaEJacket_Flat,		*,		14000,	1400 // Патрульная куртка
+		GorkaEJacket_PautRev,	*,		14000,	1400 // Патрульная куртка
+		GorkaEJacket_Summer,	*,		14000,	1400 // Патрульная куртка
+		USMCJacket_Desert,		*,		-1,		2400 // Армейская куртка
+		USMCJacket_Woodland,	*,		-1,		2550 // Армейская куртка
+		TacticalShirt_Grey,		*,		26000,	3600 // Тактическая куртка
+		TacticalShirt_Tan,		*,		27000,	3700 // Тактическая куртка
+		TacticalShirt_Black,	*,		28000,	3800 // Тактическая куртка
+		TacticalShirt_Olive,	*,		30000,	4000 // Тактическая куртка
+		NBCJacketGray,			*,		-1,	4400 // Куртка химкостюма
+		NBCJacketYellow,        *,      -1,  4000 // Куртка химкостюма
+
+		
+		
+		
+	<Category> Штаны
+		MedicalScrubsPants_Blue,*,		1000,		100 // Штаны медика
+		MedicalScrubsPants_White,*,		1000,		100 // Штаны медика
+		MedicalScrubsPants_Green,*,		1000,		100 // Штаны медика
+		TrackSuitPants_Red,		*,		1500,		150 // Спортивные штаны
+		TrackSuitPants_LightBlue,*,		1500,		150 // Спортивные штаны
+		TrackSuitPants_Blue,	*,		1500,		150 // Спортивные штаны
+		TrackSuitPants_Black,	*,		1500,		150 // Спортивные штаны
+		TrackSuitPants_Green,	*,		1500,		150 // Спортивные штаны
+		PrisonUniformPants,		*,		1700,		170 // Штаны заключенного
+		Breeches_Pink,			*,		2000,		200 // Брюки капри
+		Breeches_Red,			*,		2000,		200 // Брюки капри
+		Breeches_Blue,			*,		2000,		200 // Брюки капри
+		Breeches_White,			*,		2000,		200 // Брюки капри
+		Breeches_Beetcheck,		*,		2000,		200 // Брюки капри
+		Breeches_Beige,			*,		2100,		200 // Брюки капри
+		Breeches_Browncheck,	*,		2100,		200 // Брюки капри
+		Breeches_Black,			*,		2200,		200 // Брюки капри
+		Breeches_Blackcheck,	*,		2200,		200 // Брюки капри
+		Breeches_Green,			*,		2400,		250 // Брюки капри
+		SlacksPants_Blue,		*,		2000,		200 // Брюки
+		SlacksPants_White,		*,		2000,		200 // Брюки
+		SlacksPants_LightGrey,	*,		2000,		200 // Брюки
+		SlacksPants_DarkGrey,	*,		2000,		200 // Брюки
+		SlacksPants_Beige,		*,		2000,		200 // Брюки
+		SlacksPants_Brown,		*,		2100,		210 // Брюки
+		SlacksPants_Black,		*,		2200,		220 // Брюки
+		SlacksPants_Khaki,		*,		2400,		240 // Брюки
+		CanvasPantsMidi_Red,	*,		2400,		240 // Укор. походные штаны
+		CanvasPantsMidi_Violet,	*,		2400,		240 // Укор. походные штаны
+		CanvasPantsMidi_Blue,	*,		2400,		240 // Укор. походные штаны
+		CanvasPantsMidi_Grey,	*,		2400,		240 // Укор. походные штаны
+		CanvasPantsMidi_Beige,	*,		2500,		250 // Укор. походные штаны
+		CanvasPants_Red,		*,		2600,		260 // Походные штаны
+		CanvasPants_Violet,		*,		2600,		260 // Походные штаны
+		CanvasPants_Blue,		*,		2600,		260 // Походные штаны
+		CanvasPants_Grey,		*,		2600,		260 // Походные штаны
+		CanvasPants_Beige,		*,		2800,		280 // Походные штаны
+		JumpsuitPants_Red,		*,		2800,		280 // Штаны рабочего
+		JumpsuitPants_Blue,		*,		2800,		280 // Штаны рабочего
+		JumpsuitPants_Grey,		*,		2800,		280 // Штаны рабочего
+		JumpsuitPants_Green,	*,		2800,		280 // Штаны рабочего
+		PolicePants,			*,		2800,		280 // Полицейские штаны
+		ParamedicPants_Crimson,	*,		3500,		350 // Штаны санитара
+		ParamedicPants_Blue,	*,		3500,		350 // Штаны санитара
+		ParamedicPants_Green,	*,		3500,		350 // Штаны санитара
+		FirefightersPants_Beige,*,		3500,		350 // Штаны пожарного
+		FirefightersPants_Black,*,		3500,		350 // Штаны пожарного
+		CargoPants_Blue,		*,		3500,		350 // Штаны карго
+		CargoPants_Grey,		*,		3500,		350 // Штаны карго
+		CargoPants_Beige,		*,		3500,		350 // Штаны карго
+		CargoPants_Black,		*,		3500,		350 // Штаны карго
+		CargoPants_Green,		*,		3500,		350 // Штаны карго
+		Jeans_Blue,				*,		4000,		400 // Джинсы
+		Jeans_BlueDark,			*,		4000,		400 // Джинсы
+		Jeans_Grey,				*,		4000,		400 // Джинсы
+		Jeans_Brown,			*,		4000,		400 // Джинсы
+		Jeans_Black,			*,		4200,		420 // Джинсы
+		Jeans_Green,			*,		4500,		450 // Джинсы
+		TTSKOPants,				*,		5500,		550 // Боевые штаны
+		BDUPants,				*,		6500,		650 // Штаны военнослужащего
+		USMCPants_Desert,		*,		-1,			2650 // Армейские штаны
+		USMCPants_Woodland,		*,		-1,			2700 // Армейские штаны
+		PolicePantsOrel,		*,		7000,		700 // Штаны спецподразделения полиции ОРЕЛ
+		HunterPants_Winter,		*,		9000,		900 // Охотничьи штаны
+		HunterPants_Brown,		*,		10000,   	1000 // Охотничьи штаны
+		HunterPants_Spring,		*,		10000,	    1000 // Охотничьи штаны
+		HunterPants_Autumn,		*,		10000,	    1000 // Охотничьи штаны
+		HunterPants_Summer,		*,		10000,	    1000 // Охотничьи штаны
+		GorkaPants_Flat,		*,		13000,   	1300 // Патрульные штаны
+		GorkaPants_PautRev,		*,		13000,   	1300 // Патрульные штаны
+		GorkaPants_Autumn,		*,		13000,   	1300 // Патрульные штаны
+		GorkaPants_Summer,		*,		13000,   	1300 // Патрульные штаны
+		NBCPantsGray,			*,		-1,  	2400 // Штаны химкостюма
+		NBCPantsYellow,         *,      -1,      2000 // Штаны химкостюма
+	
+	<Category> Обувь
+		AthleticShoes_Blue,		*,		1700,		17 // Спортивные ботинки
+		AthleticShoes_Grey,		*,		2000,		20 // Спортивные ботинки
+		AthleticShoes_Brown,	*,		2000,		20 // Спортивные ботинки
+		AthleticShoes_Black,	*,		2300,		23 // Спортивные ботинки
+		AthleticShoes_Green,	*,		2300,		23 // Спортивные ботинки
+		JoggingShoes_Violet,	*,		3000,		30 // Беговая обувь
+		JoggingShoes_Red,		*,		3000,		30 // Беговая обувь
+		JoggingShoes_Blue,		*,		3000,		30 // Беговая обувь
+		JoggingShoes_White,		*,		3000,		30 // Беговая обувь
+		JoggingShoes_Black,		*,		3000,		30 // Беговая обувь
+		Sneakers_Red,			*,		3000,		30 // Кроссовки
+		Sneakers_White,			*,		3000,		30 // Кроссовки
+		Sneakers_Gray,			*,		3000,		30 // Кроссовки
+		Sneakers_Black,			*,		3100,		31 // Кроссовки
+		Sneakers_Green,			*,		3200,		32 // Кроссовки
+		DressShoes_White,		*,		3200,		32 // Туфли
+		DressShoes_Brown,		*,		3500,		35 // Туфли
+		DressShoes_Black,		*,		3500,		35 // Туфли
+		DressShoes_Beige,		*,		3500,		35 // Туфли
+		DressShoes_Sunburst,	*,		3500,		35 // Туфли
+		HikingBootsLow_Blue,	*,		4500,		45 // Треккинговые ботинки
+		HikingBootsLow_Grey,	*,		4500,		45 // Треккинговые ботинки
+		HikingBootsLow_Beige,	*,		4800,		48 // Треккинговые ботинки
+		HikingBootsLow_Black,	*,		5000,		50 // Треккинговые ботинки
+		WorkingBoots_Yellow,	*,		5500,		55 // Рабочие ботинки
+		WorkingBoots_Grey,		*,		6000,		60 // Рабочие ботинки
+		WorkingBoots_Beige,		*,		6000,		60 // Рабочие ботинки
+		WorkingBoots_Brown,		*,		6000,		60 // Рабочие ботинки
+		WorkingBoots_Green,		*,		6500,		65 // Рабочие ботинки
+		HikingBoots_Brown,		*,		7500,		75 // Походные ботинки
+		HikingBoots_Black,		*,		7500,		75 // Походные ботинки
+		CombatBoots_Grey,		*,		8000,		80 // Охотничьи ботинки
+		CombatBoots_Beige,		*,		8000,		80 // Охотничьи ботинки
+		CombatBoots_Brown,		*,		8000,		80 // Охотничьи ботинки
+		CombatBoots_Black,		*,		8000,		80 // Охотничьи ботинки
+		CombatBoots_Green,		*,		8000,		80 // Охотничьи ботинки
+		JungleBoots_Beige,		*,		8500,		85 // Ботинки для джунглей
+		JungleBoots_Brown,		*,		8500,		85 // Ботинки для джунглей
+		JungleBoots_Black,		*,		8500,		85 // Ботинки для джунглей
+		JungleBoots_Olive,		*,		8500,		85 // Ботинки для джунглей
+		JungleBoots_Green,		*,		8500,		85 // Ботинки для джунглей
+		Wellies_Grey,			*,		8500,		85 // Резиновые сапоги
+		Wellies_Brown,			*,		8500,		85 // Резиновые сапоги
+		Wellies_Black,			*,		8500,		85 // Резиновые сапоги
+		Wellies_Green,			*,		9000,		90 // Резиновые сапоги
+		TTSKOBoots,				*,		10000,	100 // Армейские ботинки
+		MilitaryBoots_Redpunk,	*,		-1, 	4100 // Штурмовые ботинки
+		MilitaryBoots_Bluerock,	*,		-1, 	4110 // Штурмовые ботинки
+		MilitaryBoots_Beige,	*,		-1, 	4110 // Штурмовые ботинки
+		MilitaryBoots_Brown,	*,		-1, 	4110 // Штурмовые ботинки
+		MilitaryBoots_Black,	*,		-1, 	4110 // Штурмовые ботинки
+		NBCBootsGray,			*,		-1,		2350 // Сапоги химкостюма
+		NBCBootsYellow,         *,      -1,  	2200 // Сапоги химкостюма
+
+	<Category> Маскировочные костюмы
+		// Keep in Mind that Players can also 
+		// craft Ghillie Clothing and sell them!
+		GhillieAtt_Mossy,		*,		-1,	1240 // Маскировочный камуфляж для винтовки
+		GhillieAtt_Tan,			*,		-1,	1240 // Маскировочный камуфляж для винтовки
+		GhillieAtt_Woodland,	*,		-1,	1240 // Маскировочный камуфляж для винтовки
+		GhillieHood_Mossy,		*,		-1,	1240 // Маскировочный капюшон
+		GhillieHood_Tan,		*,		-1,	1240 // Маскировочный капюшон
+		GhillieHood_Woodland,	*,		-1,	1240 // Маскировочный капюшон
+		GhillieBushrag_Mossy,	*,		-1,	1240 // Маскировочный халат
+		GhillieBushrag_Tan,		*,		-1,	1240 // Маскировочный халат
+		GhillieBushrag_Woodland,*,		-1,	1240 // Маскировочный халат
+		GhillieTop_Mossy,		*,		-1,	1260 // Маскировочный плащ
+		GhillieTop_Tan,			*,		-1,	1260 // Маскировочный плащ
+		GhillieTop_Woodland,	*,		-1,	1260 // Маскировочный плащ
+		GhillieSuit_Mossy,		*,		-1,	1400 // Маскировочный костюм
+		GhillieSuit_Tan,		*,		-1,	1400 // Маскировочный костюм
+		GhillieSuit_Woodland,	*,		-1,	1400 // Маскировочный костюм
+		OKZKCap_Beige,			*,		-1,	1400 // Кепка от ОКЗК
+		OKZKCap_Green,			*,		-1,	400 // Кепка от ОКЗК
+	<Category> Кобуры и чехлы
+		ChestHolster,			*,		1600,		160 // Плечевая кобура
+		PlateCarrierHolster,	*,		2000,		200 // Кобура
+		PlateCarrierPouches,	*,		1200,		320 // Съемные карманы
+		PlateCarrierPouches_Black,	*,		1200,		320 // Съемные карманы
+		PlateCarrierPouches_Camo,	*,		1200,		320 // Съемные карманы
+		PlateCarrierPouches_Green,	*,		1200,		320 // Съемные карманы
+		PlateCarrierPouches_Winter,	*,		1200,		320 // Съемные карманы
+		NylonKnifeSheath,       *,      1500,       150 // Ножны
+		dbr_Pouch_100,       *,      800000,       150 // Добрые карманы (100)
+		dbr_Pouch_30,        *,      150000,       150 // Добрые карманы (30)
+		dbr_Pouch_50,        *,      250000,       150 // Добрые карманы (50)
+		
+	<Category> Ремни
+		CivilianBelt,			*,		1300,	130 // Ремень
+		MilitaryBelt,			*,		3500,	350 // Тактический ремень
+		
+	<Category> Рюкзаки и сумки
+ArmyPouch_Beige,	*,		2000,		700 // Армейская сумка
+ArmyPouch_Black,	*,		2000,		700 // Армейская сумка
+ArmyPouch_Camo,	*,		2000,		700 // Армейская сумка
+ArmyPouch_Green,	*,		2000,		700 // Армейская сумка
+		DuffelBagSmall_Medical,	*,		2000,		700 // Кожаная сумка
+		DuffelBagSmall_Camo,	*,		2000,		700 // Кожаная сумка
+		DuffelBagSmall_Green,	*,		2000,		700 // Кожаная сумка
+		DuffelBagSmall_Medical,	*,		2000,		700 // Кожаная сумка
+		ChildBag_Red,			*,		2000,		200 // Школьный рюкзак
+		ChildBag_Blue,			*,		2000,		200 // Школьный рюкзак
+		ChildBag_Green,			*,		2500,		250 // Школьный рюкзак
+		DryBag_Yellow,			*,		13000,		1300 // Водонепроницаемый рюкзак
+		DryBag_Orange,			*,		13000,		1300 // Водонепроницаемый рюкзак
+		DryBag_Red,				*,		13000,		1300 // Водонепроницаемый рюкзак
+		DryBag_Blue,			*,		13000,		1300 // Водонепроницаемый рюкзак
+		DryBag_Black,			*,		15000,		1500 // Водонепроницаемый рюкзак
+		DryBag_Green,			*,		15000,		1500 // Водонепроницаемый рюкзак
+		TaloonBag_Orange,		*,		2500,		300 // Походный рюкзак
+		TaloonBag_Violet,		*,		2500,		300 // Походный рюкзак
+		TaloonBag_Blue,			*,		2500,		300 // Походный рюкзак
+		TaloonBag_Green,		*,		3000,		300 // Походный рюкзак
+		SmershBag,				*,		8000,	    800 // Универсальная поясная сумка
+		WaterproofBag_Yellow,	*,		3000,	    300 // Гермомешок
+		WaterproofBag_Orange,	*,		3000,	    300 // Гермомешок
+		WaterproofBag_Green,	*,		3000,	    300 // Гермомешок
+		AssaultBag_Black,		*,		8000,	    800 // Штурмовой рюкзак
+		AssaultBag_Green,		*,		8000,	    800 // Штурмовой рюкзак
+		AssaultBag_Ttsko,		*,		10000,	    1000 // Штурмовой рюкзак
+		HuntingBag,				*,		10000,	    1000 // Рюкзак охотника
+		TortillaBag,			*,		10000,	    1000 // Боевой рюкзак
+		CoyoteBag_Brown,		*,		10000,	    1000 // Тактический рюкзак
+		CoyoteBag_Green,		*,		10000,	    1000 // Тактический рюкзак
+		MountainBag_Orange,		*,		10000,	    1000 // Альпинистский рюкзак
+		MountainBag_Red,		*,		10000,	    1000 // Альпинистский рюкзак
+		MountainBag_Blue,		*,		10000,	    1000 // Альпинистский рюкзак
+		MountainBag_Green,		*,		15000,	    1500 // Альпинистский рюкзак
+		AliceBag_Black,			*,		20000,	    2000 // Полевой рюкзак
+		AliceBag_Green,			*,		20000,	    2000 // Полевой рюкзак
+		AliceBag_Camo,			*,		20000,	    2000 // Полевой рюкзак
+		SurvivorBackpack_Black,		*,		400000,	1500 // Survivor Backpack
+		SurvivorBackpack_Blue,		*,		400000,	1500 // Survivor Backpack
+		SurvivorBackpack_Green,		*,		400000,	1500 // Survivor Backpack
+		SurvivorBackpack_Pink,		*,		400000,	1500 // Survivor Backpack
+		SurvivorBackpack_Red,		*,		400000,	1500 // Survivor Backpack
+		SurvivorBackpack_Yellow,	*,		400000,	1500 // Survivor Backpack
+		
+		 
+		dbr_Backpack_250,		*,		1250000,	771500 // Добрый рюкзак 250
+		dbr_Backpack_500,		*,		3500000,	1250000 // Добрый рюкзак 500
+		dbr_Backpack_750,		*,		4750000,	2500000 // Добрый рюкзак 750
+		dbr_Backpack2_750,		*,		4950000,	2500000 // Добрый рюкзак 750
+		HipPack_Black,		*,		30000,	2700 // Поясная сумка
+		HipPack_Green,		*,		30000,	2700 // Поясная сумка
+		HipPack_Medical,		*,		30000,	2700 // Поясная сумка
+		HipPack_Party,		*,		30000,	2700 // Поясная сумка
+		dbr_HipPack_Green_100,		*,		300000,	2700 // Добрый ремень100
+		dbr_HipPack_Green_30,		*,		90000,	2700 // Добрый ремень30
+		dbr_HipPack_Green_50,		*,		150000,	2700 // Добрый ремень50
+		dbr_HipPack_Green_300,		*,		1500000,	1000000 // Добрый ремень300
+		dbr_HipPack_Green_500,		*,		2500000,	1250000 // Добрый ремень500
+<Trader> Автомобильный торговец
+	<Category> Автомобили
+		OffroadHatchback,		        V,		      700000,	120325	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought. // Ada 4x4
+		OffroadHatchback_Blue,	        V,		      700000,	120325 // Ada 4x4
+		OffroadHatchback_White,	        V,		      700000,	120325 // Ada 4x4
+		Hatchback_02,			        V,		      604000,	122000 // Gunter 2
+		Hatchback_02_Blue,		        V,		      604000,	122000 // Gunter 2
+		Hatchback_02_Black,		        V,		      604000,	122000 // Gunter 2
+		Sedan_02,  	                   	V,		      422000,	120000 // Sarka 120
+		Sedan_02_Grey,                  V,            422000,   130000 // Sarka 120
+		Sedan_02_Red,			        V,		      422000,	130000 // Sarka 120
+		CivilianSedan,			        V,		      400000,	130000 // Olga 24
+		CivilianSedan_Wine,		        V,		      400000,	130000 // Olga 24
+		CivilianSedan_Black,	        V,		      400000,	130000 // Olga 24
+		Truck_01_Covered,		        V,		      2000000,	200000 // Крытый M3S
+        Truck_01_Covered_Blue,	        V,		      2000000,	200000 // Крытый M3S
+        Truck_01_Covered_Orange,        V,		      2000000,	200000 // Крытый M3S
+		Offroad_02,                     V,            650000,   160000 // M1025
+		savage_gaztigr,                 V, 			  2800000,  1000000 // GAZ TIGR
+	
+	    MBM_HondaCRF450_MBM,			V, 60000,	40000 // Honda CRF450R - MBM
+
+		MBM_LandCruiser_Grey,			V, 3400000,	1000000 // Toyota Land Cruiser - Grey
+		MBM_LandCruiser_Black,			V, 3400000,	1000000 // Toyota Land Cruiser - Black
+		MBM_Sprinter_Red, 				V, 3700000, 1000050 // Mercedes Sprinter Passenger - Red
+		MBM_Sprinter_Black, 			V, 3700000, 1000050 // Mercedes Sprinter Passenger - Black
+		MBM_Sprinter_Gray, 				V, 3700000, 1000050 // Mercedes Sprinter Passenger - Gray
+		MBM_Sprinter_Purple,			V, 3700000, 1000050 // Mercedes Sprinter Passenger - Purple
+		MBM_Sprinter_Green,			    V, 3700000, 1000050 // Mercedes Sprinter Passenger - Green
+		MBM_Sprinter_Orange, 			V, 3700000, 1000050 // Mercedes Sprinter Passenger - Orange
+		MBM_Sprinter_Blue, 				V, 3700000, 1000050 // Mercedes Sprinter Passenger - Blue
+		MBM_Sprinter_FreeCandyCargo, 	V, 6200000, 2000050 // Mercedes Sprinter Cargo - Free Candy
+		MBM_Sprinter_mebradsmodsCargo, 	V, 6200000, 2000050 // Mercedes Sprinter Cargo - Black mebrads mods
+		MBM_Sprinter_FandaCargo, 		V, 6200000, 2000050 // Mercedes Sprinter Cargo - Fanda
+		MBM_Sprinter_PipsiCargo, 		V, 6200000, 2000050 // Mercedes Sprinter Cargo - Pipsi
+		MBM_Sprinter_ColaCargo, 		V, 6200000, 2000050 // Mercedes Sprinter Cargo - Cola
+		mdnk_mazdamx5_red_auto,			V, 2500000,	850000 // MAZDA mx5(Auto)
+		mdnk_mazdamx5_red,				V, 2500000,	850000 // #STR_MAZDA_NAME
+		mdnk_mazdamx5_white,			V, 2500000,	850000 // #STR_MAZDA_NAME
+		mdnk_mazdamx5_black,			V, 2500000,	850000 // #STR_MAZDA_NAME
+		mdnk_mazdamx5,					V, 2500000,	850000 // #STR_MAZDA_NAME
+		Mad_mustang,					V, 2800000,	950000 //  Mad_mustang
+		FC_Uaz_Pickup_Black,			V, 2200000,	650000 // УАЗ 469 (М) Чёрный
+		FC_Uaz_Pickup_Green,			V, 2200000,	650000 // УАЗ 469 (М) Зелёный
+		FC_Uaz_Pickup_Pink,				V, 2200000,	650000 // УАЗ 469 (М) Розовый
+		FC_Uaz_Pickup_Red,				V, 2200000,	650000 // УАЗ 469 (М) Красный
+		mdnk_kraz6332_white,			V, 7500000,	2800000 // КрАЗ 6332
+		mdnk_kraz6332_green,			V, 7500000,	2800000 // КрАЗ 6332
+		mdnk_kraz6332_black,			V, 7500000,	2800000 // КрАЗ 6332
+		mdnk_kraz6332,				  	V, 7500000,	2800000 // КрАЗ 6332
+		mdnk_mercedesunimog,			V, 4200000,	2800000 // #STR_UNIMOG_NAME
+	<Category> Запчасти к авто
+		SparkPlug,		           *,		40000,		2000 // Свеча зажигания
+		HeadlightH7_Box,		           *,		300,		150 // Автомобильная лампа в коробке
+		GlowPlug,                          *,      3000,   300 // Свеча накаливания
+		CarBattery,				           M,		10000,	1000 // Автомобильный аккумулятор
+		TruckBattery,			           M,		50000,	5000 // Аккумулятор для грузовика
+		CarRadiator,			           *,		10000,	2000 // Автомобильный радиатор
+		TireRepairKit,			           *,		4200,	420 // Набор для ремонта шин
+		HatchbackHood,						*,		3000,	300 // Капот Ada 4x4
+		HatchbackHood_Blue,					*,		3000,	300 // Капот Ada 4x4
+		HatchbackHood_White,				*,		3000,	300 // Капот Ada 4x4
+		HatchbackHood_GreenRust,			*,		3000,	300 // Капот Ada 4x4
+		HatchbackHood_BlueRust,				*,		3000,	300 // Капот Ada 4x4
+		HatchbackHood_WhiteRust,			*,		3000,	300 // Капот Ada 4x4
+		HatchbackTrunk,						*,		3800,	380 // Дверь багажника Ada 4x4
+		HatchbackTrunk_Blue,				*,		3800,	380 // Дверь багажника Ada 4x4
+		HatchbackTrunk_White,				*,		3800,	380 // Дверь багажника Ada 4x4
+		HatchbackTrunk_GreenRust,			*,		3800,	380 // Дверь багажника Ada 4x4
+		HatchbackTrunk_BlueRust,			*,		3800,	380 // Дверь багажника Ada 4x4
+		HatchbackTrunk_WhiteRust,			*,		3800,	380 // Дверь багажника Ada 4x4
+		HatchbackDoors_Driver,				*,		4500,	450 // Левая дверь Ada 4x4
+		HatchbackDoors_Driver_Blue,			*,		4500,	450 // Левая дверь Ada 4x4
+		HatchbackDoors_Driver_White,		*,		4500,	450 // Левая дверь Ada 4x4
+		HatchbackDoors_Driver_GreenRust,	*,		4500,	450 // Левая дверь Ada 4x4
+		HatchbackDoors_Driver_BlueRust,		*,		4500,	450 // Левая дверь Ada 4x4
+		HatchbackDoors_Driver_WhiteRust,	*,		4500,	450 // Левая дверь Ada 4x4
+		HatchbackDoors_CoDriver,			*,		4500,	450 // Правая дверь Ada 4x4
+		HatchbackDoors_CoDriver_Blue,		*,		4500,	450 // Правая дверь Ada 4x4
+		HatchbackDoors_CoDriver_White,		*,		4500,	450 // Правая дверь Ada 4x4
+		HatchbackDoors_CoDriver_GreenRust,	*,		4500,	450 // Правая дверь Ada 4x4
+		HatchbackDoors_CoDriver_BlueRust,	*,		4500,	450 // Правая дверь Ada 4x4
+		HatchbackDoors_CoDriver_WhiteRust,	*,		4500,	450 // Правая дверь Ada 4x4
+		HatchbackWheel,						*,		5000,	500 // Колесо Ada 4x4
+		Hatchback_02_Hood,				*,		3000,	300 // Капот Gunter 2
+		Hatchback_02_Hood_Black,		*,		3000,	300 // Капот Gunter 2
+		Hatchback_02_Hood_Blue,			*,		3000,	300 // Капот Gunter 2
+		Hatchback_02_Hood_RedRust,		*,		3000,	300 // Капот Gunter 2
+		Hatchback_02_Hood_BlackRust,	*,		3000,	300 // Капот Gunter 2
+		Hatchback_02_Hood_BlueRust,		*,		3000,	300 // Капот Gunter 2
+		Hatchback_02_Trunk,				*,		3800,	380 // Дверь багажника Gunter 2
+		Hatchback_02_Trunk_Black,		*,		3800,	380 // Дверь багажника Gunter 2
+		Hatchback_02_Trunk_Blue,		*,		3800,	380 // Дверь багажника Gunter 2
+		Hatchback_02_Trunk_RedRust,		*,		3800,	380 // Дверь багажника Gunter 2
+		Hatchback_02_Trunk_BlackRust,	*,		3800,	380 // Дверь багажника Gunter 2
+		Hatchback_02_Trunk_BlueRust,	*,		3800,	380 // Дверь багажника Gunter 2
+		Hatchback_02_Door_1_1,			*,		4500,	450 // Передняя левая дверь Gunter 2
+		Hatchback_02_Door_1_1_Black,	*,		4500,	450 // Передняя левая дверь Gunter 2
+		Hatchback_02_Door_1_1_Blue,		*,		4500,	450 // Передняя левая дверь Gunter 2
+		Hatchback_02_Door_1_1_RedRust,	*,		4500,	450 // Передняя левая дверь Gunter 2
+		Hatchback_02_Door_1_1_BlackRust,*,		4500,	450 // Передняя левая дверь Gunter 2
+		Hatchback_02_Door_1_1_BlueRust,	*,		4500,	450 // Передняя левая дверь Gunter 2
+		Hatchback_02_Door_1_2,			*,		4500,	450 // Задняя левая дверь Gunter 2
+		Hatchback_02_Door_1_2_Black,	*,		4500,	450 // Задняя левая дверь Gunter 2
+		Hatchback_02_Door_1_2_Blue,		*,		4500,	450 // Задняя левая дверь Gunter 2
+		Hatchback_02_Door_1_2_RedRust,	*,		4500,	450 // Задняя левая дверь Gunter 2
+		Hatchback_02_Door_1_2_BlackRust,*,		4500,	450 // Задняя левая дверь Gunter 2
+		Hatchback_02_Door_1_2_BlueRust,	*,		4500,	450 // Задняя левая дверь Gunter 2
+		Hatchback_02_Door_2_1,			*,		4500,	450 // Передняя правая дверь Gunter 2
+		Hatchback_02_Door_2_1_Black,	*,		4500,	450 // Передняя правая дверь Gunter 2
+		Hatchback_02_Door_2_1_Blue,		*,		4500,	450 // Передняя правая дверь Gunter 2
+		Hatchback_02_Door_2_1_RedRust,	*,		4500,	450 // Передняя правая дверь Gunter 2
+		Hatchback_02_Door_2_1_BlackRust,*,		4500,	450 // Передняя правая дверь Gunter 2
+		Hatchback_02_Door_2_1_BlueRust,	*,		4500,	450 // Передняя правая дверь Gunter 2
+		Hatchback_02_Door_2_2,			*,		4500,	450 // Задняя правая дверь Gunter 2
+		Hatchback_02_Door_2_2_Black,	*,		4500,	450 // Задняя правая дверь Gunter 2
+		Hatchback_02_Door_2_2_Blue,		*,		4500,	450 // Задняя правая дверь Gunter 2
+		Hatchback_02_Door_2_2_RedRust,	*,		4500,	450 // Задняя правая дверь Gunter 2
+		Hatchback_02_Door_2_2_BlackRust,*,		4500,	450 // Задняя правая дверь Gunter 2
+		Hatchback_02_Door_2_2_BlueRust,	*,		4500,	450 // Задняя правая дверь Gunter 2
+		Hatchback_02_Wheel,				*,		5000,	500 // Колесо Gunter 2
+		Sedan_02_Hood,					*,		3000,	300 // Капот Sarka 120
+		Sedan_02_Hood_Red,				*,		3000,	300 // Капот Sarka 120
+		Sedan_02_Hood_Grey,				*,		3000,	300 // Капот Sarka 120
+		Sedan_02_Hood_YellowRust,		*,		3000,	300 // Капот Sarka 120
+		Sedan_02_Hood_RedRust,			*,		3000,	300 // Капот Sarka 120
+		Sedan_02_Hood_GreyRust,			*,		3000,	300 // Капот Sarka 120
+		Sedan_02_Trunk,					*,		4500,	450 // Дверь багажника Sarka 120
+		Sedan_02_Trunk_Red,				*,		4500,	450 // Дверь багажника Sarka 120
+		Sedan_02_Trunk_Grey,			*,		4500,	450 // Дверь багажника Sarka 120
+		Sedan_02_Trunk_YellowRust,		*,		4500,	450 // Дверь багажника Sarka 120
+		Sedan_02_Trunk_RedRust,			*,		4500,	450 // Дверь багажника Sarka 120
+		Sedan_02_Trunk_GreyRust,		*,		4500,	450 // Дверь багажника Sarka 120
+		Sedan_02_Door_1_1,				*,		4500,	450 // Передняя левая дверь Sarka 120
+		Sedan_02_Door_1_1_Red,			*,		4500,	450 // Передняя левая дверь Sarka 120
+		Sedan_02_Door_1_1_Grey,			*,		4500,	450 // Передняя левая дверь Sarka 120
+		Sedan_02_Door_1_1_YellowRust,	*,		4500,	450 // Передняя левая дверь Sarka 120
+		Sedan_02_Door_1_1_RedRust,		*,		4500,	450 // Передняя левая дверь Sarka 120
+		Sedan_02_Door_1_1_GreyRust,		*,		4500,	450 // Передняя левая дверь Sarka 120
+		Sedan_02_Door_1_2,				*,		4500,	450 // Задняя левая дверь Sarka 120
+		Sedan_02_Door_1_2_Red,			*,		4500,	450 // Задняя левая дверь Sarka 120
+		Sedan_02_Door_1_2_Grey,			*,		4500,	450 // Задняя левая дверь Sarka 120
+		Sedan_02_Door_1_2_YellowRust,	*,		4500,	450 // Задняя левая дверь Sarka 120
+		Sedan_02_Door_1_2_RedRust,		*,		4500,	450 // Задняя левая дверь Sarka 120
+		Sedan_02_Door_1_2_GreyRust,		*,		4500,	450 // Задняя левая дверь Sarka 120
+		Sedan_02_Door_2_1,				*,		4500,	450 // Передняя правая дверь Sarka 120
+		Sedan_02_Door_2_1_Red,			*,		4500,	450 // Передняя правая дверь Sarka 120
+		Sedan_02_Door_2_1_Grey,			*,		4500,	450 // Передняя правая дверь Sarka 120
+		Sedan_02_Door_2_1_YellowRust,	*,		4500,	450 // Передняя правая дверь Sarka 120
+		Sedan_02_Door_2_1_RedRust,		*,		4500,	450 // Передняя правая дверь Sarka 120
+		Sedan_02_Door_2_1_GreyRust,		*,		4500,	450 // Передняя правая дверь Sarka 120
+		Sedan_02_Door_2_2,				*,		4500,	450 // Задняя правая дверь Sarka 120
+		Sedan_02_Door_2_2_Red,			*,		4500,	450 // Задняя правая дверь Sarka 120
+		Sedan_02_Door_2_2_Grey,			*,		4500,	450 // Задняя правая дверь Sarka 120
+		Sedan_02_Door_2_2_YellowRust,	*,		4500,	450 // Задняя правая дверь Sarka 120
+		Sedan_02_Door_2_2_RedRust,		*,		4500,	450 // Задняя правая дверь Sarka 120
+		Sedan_02_Door_2_2_GreyRust,		*,		4500,	450 // Задняя правая дверь Sarka 120
+		Sedan_02_Wheel,					*,		5000,	500 // Колесо Sarka 120
+		CivSedanHood,						*,		4000,	400 // Капот Olga 24
+		CivSedanHood_Wine,					*,		4000,	400 // Капот Olga 24
+		CivSedanHood_Black,					*,		4000,	400 // Капот Olga 24
+		CivSedanHood_WhiteRust,				*,		4000,	400 // Капот Olga 24
+		CivSedanHood_WineRust,				*,		4000,	400 // Капот Olga 24
+		CivSedanHood_BlackRust,				*,		4000,	400 // Капот Olga 24
+		CivSedanTrunk,						*,		4500,	450 // Крышка багажника Olga 24
+		CivSedanTrunk_Wine,					*,		4500,	450 // Крышка багажника Olga 24
+		CivSedanTrunk_Black,				*,		4500,	450 // Крышка багажника Olga 24
+		CivSedanTrunk_WhiteRust,			*,		4500,	450 // Крышка багажника Olga 24
+		CivSedanTrunk_WineRust,				*,		4500,	450 // Крышка багажника Olga 24
+		CivSedanTrunk_BlackRust,			*,		4500,	450 // Крышка багажника Olga 24
+		CivSedanDoors_Driver,				*,		5000,	500 // Передняя левая дверь Olga 24
+		CivSedanDoors_Driver_Wine,			*,		5000,	500 // Передняя левая дверь Olga 24
+		CivSedanDoors_Driver_Black,			*,		5000,	500 // Передняя левая дверь Olga 24
+		CivSedanDoors_Driver_WhiteRust,		*,		5000,	500 // Передняя левая дверь Olga 24
+		CivSedanDoors_Driver_WineRust,		*,		5000,	500 // Передняя левая дверь Olga 24
+		CivSedanDoors_Driver_BlackRust,		*,		5000,	500 // Передняя левая дверь Olga 24
+		CivSedanDoors_CoDriver,				*,		5000,	500 // Передняя правая дверь Olga 24
+		CivSedanDoors_CoDriver_Wine,		*,		5000,	500 // Передняя правая дверь Olga 24
+		CivSedanDoors_CoDriver_Black,		*,		5000,	500 // Передняя правая дверь Olga 24
+		CivSedanDoors_CoDriver_WhiteRust,	*,		5000,	500 // Передняя правая дверь Olga 24
+		CivSedanDoors_CoDriver_WineRust,	*,		5000,	500 // Передняя правая дверь Olga 24
+		CivSedanDoors_CoDriver_BlackRust,	*,		5000,	500 // Передняя правая дверь Olga 24
+		CivSedanDoors_BackLeft,				*,		5000,	500 // Задняя левая дверь Olga 24
+		CivSedanDoors_BackLeft_Wine,		*,		5000,	500 // Задняя левая дверь Olga 24
+		CivSedanDoors_BackLeft_Black,		*,		5000,	500 // Задняя левая дверь Olga 24
+		CivSedanDoors_BackLeft_WhiteRust,	*,		5000,	500 // Задняя левая дверь Olga 24
+		CivSedanDoors_BackLeft_WineRust,	*,		5000,	500 // Задняя левая дверь Olga 24
+		CivSedanDoors_BackLeft_BlackRust,	*,		5000,	500 // Задняя левая дверь Olga 24
+		CivSedanDoors_BackRight,			*,		5000,	500 // Задняя правая дверь Olga 24
+		CivSedanDoors_BackRight_Wine,		*,		5000,	500 // Задняя правая дверь Olga 24
+		CivSedanDoors_BackRight_Black,		*,		5000,	500 // Задняя правая дверь Olga 24
+		CivSedanDoors_BackRight_WhiteRust,	*,		5000,	500 // Задняя правая дверь Olga 24
+		CivSedanDoors_BackRight_WineRust,	*,		5000,	500 // Задняя правая дверь Olga 24
+		CivSedanDoors_BackRight_BlackRust,	*,		5000,	500 // Задняя правая дверь Olga 24
+		CivSedanWheel,						*,		6000,	600 // Колесо Olga 24
+		Truck_01_Hood,						*,		4000,	400 // Капот M3S
+		Truck_01_Hood_Blue,					*,		4000,	400 // Капот M3S
+        Truck_01_Hood_Orange,				*,		4000,	400 // Капот M3S
+		Truck_01_Door_1_1,					*,		5000,	500 // Левая дверь M3S
+        Truck_01_Door_1_1_Blue,				*,		5000,	500 // Левая дверь M3S
+        Truck_01_Door_1_1_Orange,			*,		5000,	500 // Левая дверь M3S
+        Truck_01_Door_2_1,					*,		5000,	500 // Правая дверь M3S
+        Truck_01_Door_2_1_Blue,				*,		5000,	500 // Правая дверь M3S
+        Truck_01_Door_2_1_Orange,			*,		5000,	500 // Правая дверь M3S
+        Truck_01_Wheel,						*,		6000,	600 // Колесо M3S
+        Truck_01_WheelDouble,				*,		10000,	1000 // Двухскатное колесо M3S
+
+        Offroad_02_Door_1_1_Rust,       *,      6000,  600 // Передняя левая дверь M1025
+        Offroad_02_Door_1_2_Rust,       *,      6000,  600 // Задняя левая дверь M1025
+        Offroad_02_Door_2_1_Rust,       *,      6000,  600 // Передняя правая дверь M1025
+        Offroad_02_Door_2_2_Rust,       *,      6000,  600 // Задняя правая дверь M1025
+        Offroad_02_Trunk_Rust,          *,      6000,  600 // Крышка багажника M1025
+        Offroad_02_Wheel,               *,      6000,  600 // Колесо M1025
+	<Category> Запчасти
+		savage_gaztigr_Driver ,						*,		2500,	1000 // GAZ Tigr Front left door
+		savage_gaztigr_coDriver ,					*,		2500,	1000 // GAZ Tigr Front right door
+		savage_gaztigr_cargo1 ,						*,		2500,	1000 // GAZ Tigr Rear left door
+		savage_gaztigr_cargo2 ,						*,		2500,	1000 // GAZ Tigr Rear right door
+		savage_gaztigr_Hood ,						*,		2500,	1000
+		savage_gaztigr_koleso ,						*,		2500,	1000 // GAZ Tigr Wheel
+		savage_gaztigr_koleso ,						*,		2500,	1000 // GAZ Tigr Wheel
+		savage_gaztigr_koleso ,						*,		2500,	1000 // GAZ Tigr Wheel
+		savage_gaztigr_koleso ,						*,		2500,	1000 // GAZ Tigr Wheel
+		savage_gaztigr_koleso,						*,		2500,	1000 // GAZ Tigr Wheel
+		MBM_LandCruiser_Wheel,			*,		41000,	750 // Toyota Land Cruiser Wheel
+		MBM_Sprinter_Wheel_Gray,			*,		91000,	750 // Mercedes Sprinter Wheel - Gray
+	<Category> Переносное радио
+		DayZRadio, *, 				55500, 10500
+		DayZRadio_Panasonic, *, 	38000, 16200
+        DayZRadio_Walkman, *, 		50000, 5200
+	<Category> Ключи
+		VehicleKeyDuplicate,	K,		2000,	-1 		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1 // Duplicated Key
+		VehicleKeyLost,    		KL,    	5000,   -1		// The choosen Classname here only gets displayed in the UI (Name/Description); Make Sure SellValue is set to -1 // Lost Key
+		RZ_DoorKeys2,					*,		20000,	10000 // Ключ - 2
+		RZ_DoorKeys1,					*,		30000,	10000 // Ключ - 1
+		RZ_DoorKeycard1,				*,		-1,	10000 // Карта доступа - 1
+		RZ_DoorKeycardDDlvl1,			*,		-1,	10000 // Карта доступа - DD
+		RZ_DoorKeycardDDlvl2,			*,		-1,	10000 // Карта доступа - DD
+		RZ_DoorKeycardDDlvl3,			*,		-1,	10000 // Карта доступа - DD
+		RZ_DoorKeycardDDlvl4,			*,		-1,	10000 // Карта доступа - DD
+		RZ_DoorKeycardDDlvl5,			*,		-1,	10000 // Карта доступа - DD
+	<Category> Касеты	
+		VOS_Cassette_HIT_2007,	 		 *, 		20000, 5200 // Верните мой 2007
+		VOS_Cassette_AGATA,				 *, 		20000, 5200 // Агата Кристи - Лучшее
+		VOS_Cassette_ARIA,				 *, 		20000, 5200 // Ария - Лучшее
+		VOS_Cassette_ANNA_ASTI,	 		 *, 		20000, 5200 // ANNA ASTI - Лучшее
+		VOS_Cassette_BI2,	 			 *, 		20000, 5200 // Би2 - Лучшее
+		VOS_Cassette_BRITNEY_SPEARS,	 *, 		20000, 5200 // Britney Spears - Лучшее
+		VOS_Cassette_Base,	 			 *, 		20000, 5200
+		VOS_Cassette_Base,	 			 *, 		20000, 5200
+		VOS_Cassette_COVER,	 			 *, 		20000, 5200 // STR_CoverCollection
+		VOS_Cassette_DDT,	 			 *, 		20000, 5200 // ДДТ - Лучшее
+		VOS_Cassette_DEMO,	 			 *, 		20000, 5200 // DEMO - Сборник песен
+		VOS_Cassette_DISCO80RUS,		 *, 		20000, 5200 // Дискотека 80 Rus - Лучшее
+		VOS_Cassette_DISCO80,			 *, 		20000, 5200 // Дискотека 80 Зарубежные Хиты - Лучшее
+		VOS_Cassette_FAKTOR,	 		 *, 		22000, 5200 // Фактор 2 - Лучшее
+		VOS_Cassette_GLYKOZA,	 		 *, 		20000, 5200 // GlyukoZa - Лучшее
+		VOS_Cassette_HIT_11_2023,	 	 *, 		20000, 5200 // Сборник хитов за Ноябрь 2023
+		VOS_Cassette_INNA,	 			 *, 		20000, 5200 // Инна Вальтер - Лучшее
+		VOS_Cassette_KINO,	 			 *, 		24000, 5200 // Кино - Лучшее
+		VOS_Cassette_KOROL_I_SHUT,	     *, 		24000, 5200 // Король и Шут - Лучшее
+		VOS_Cassette_KLAVA_KOKA,	 	 *, 		7000, 5200 // Клава Кока - Лучшее
+		VOS_Cassette_LENINGRAD,	 		 *, 		20000, 5200 // Ленинград - Лучшее
+		VOS_Cassette_LINKINPARK,		 *, 		20000, 5200 // Linkin Park - Лучшее
+		VOS_Cassette_METALLICA,	 		 *, 		20000, 5200 // Metallica - Лучшее
+		VOS_Cassette_NAUTILUS,			 *, 		20000, 5200 // Наутилус Помпилиус - Лучшее
+		VOS_Cassette_NENCY,	 			 *, 		20000, 5200 // Нэнси - Лучшее
+		VOS_Cassette_NEW_YEAR1,	 		 *, 		10000, 5200 // Новогодний сборник 1
+		VOS_Cassette_NEW_YEAR2,	 		 *, 		15000, 5200 // Новогодний сборник 2
+		VOS_Cassette_NEW_YEAR3,	 		 *, 		22200, 5200 // STR_NEW_YEAR3Collection
+		VOS_Cassette_NIRVANA,			 *, 		20000, 5200 // Nirvana - Лучшее
+		VOS_Cassette_OBORONA,	 		 *, 		20000, 5200 // Гражданская Оборона - Лучшее
+		VOS_Cassette_OFFSPRING,	 		 *, 		20000, 5200 // The Offspring - Лучшее
+		VOS_Cassette_PACANKA,			 *, 		20000, 5200 // Пацанка - Лучшее
+		VOS_Cassette_PIKNIK,	 		 *, 		20000, 5200 // Пикник - Лучшее
+		VOS_Cassette_RADIO_HIT_FM,	 	 *, 		20000, 5200 // Радио ХИТ fm - Лучшее
+		VOS_Cassette_RAMMSTEIN,	  		 *, 		20000, 5200 // Rammstein - Сборник песен
+		VOS_Cassette_SEKTOR_GAZA,	 	 *, 		30000, 5200 // Сектор Газа - Сборник песен 1
+		VOS_Cassette_SEKTOR_GAZA2,		 *, 		30000, 5200 // Сектор Газа - Сборник песен 2
+		VOS_Cassette_SHAKIRA,	 		 *, 		20000, 5200 // Shakira - Лучшее
+		VOS_Cassette_VREMYA_I_STEKLO,	 *, 		20000, 5200 // Время и стекло - Лучшее
+		VOS_Cassette_TANCY_MINUS,	 	 *, 		20000, 5200 // Танцы Минус - Лучшее
+		VOS_Cassette_TAPOK,	 			 *, 		20000, 5200 // Radio Tapok - Сборник песен
+		VOS_Cassette_THE_BEATLES,	   	 *, 		20000, 5200 // The Beatles - Лучшее
+		VOS_Cassette_TOP_10_OT_CRAZY,	 *, 		20000, 5200 // TOP от Crazy
+		VOS_Cassette_TOP_10_OT_GRIVA1,	 *, 		20000, 5200 // TOP от Грива Льва1
+		VOS_Cassette_TOP_10_OT_GRIVA2,	 *, 		20000, 5200 // TOP от Грива Льва2
+		VOS_Cassette_TROLL,	 			 *, 		20000, 5200 // Мумий Тролль - Лучшее
+		VOS_Cassette_VOROVAJKI,			 *, 		20000, 5200 // Воровайки - Лучшее
+		VOS_Cassette_ZEMFIRA,			 *, 		8000, 5200 // Земфира - Лучшее
+		
+//<OpenFile> FileName.txt								// Links to another File; Must be right above <FileEnd>!
+<FileEnd>												// This has to be on the End of this File and is very importand!
